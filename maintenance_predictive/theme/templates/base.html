@@ -1,0 +1,35 @@
+{% load static tailwind_tags %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}M-Report{% endblock %}</title>
+
+    <!-- Tailwind CSS -->
+    {% tailwind_css %}
+
+    <!-- Font Awesome (plugin installé via fontawesome-free) -->
+    <link href="{% static 'fontawesome_free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <script src="{% static 'fontawesome_free/js/all.min.js' %}"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col">
+
+    <!-- Header commun -->
+    <header class="bg-gray-800 py-4 px-10 shadow-md flex justify-between items-center">
+        <div class="text-lg font-bold text-orange-400">M-Report</div>
+        <div class="text-center flex-1 text-lg font-semibold">
+            {% block page_title %}Titre de la page{% endblock %}
+        </div>
+        <div class="w-32"><!-- espace vide pour équilibrer --></div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main class="flex-grow container mx-auto px-4 py-6">
+        {% block content %}
+        <!-- contenu spécifique -->
+        {% endblock %}
+    </main>
+
+</body>
+</html>

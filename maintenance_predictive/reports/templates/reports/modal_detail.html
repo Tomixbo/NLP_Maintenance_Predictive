@@ -1,0 +1,21 @@
+<!-- reports/templates/reports/modal_detail.html -->
+<div class="p-4">
+    <h3 class="text-xl font-semibold mb-2">{{ report.component }}</h3>
+    <p class="text-gray-300 mb-2"><strong>Dispositif :</strong> {{ report.device|default:"—" }}</p>
+    <p class="text-gray-300 mb-2"><strong>Auteur :</strong> {{ report.author }}</p>
+    <p class="text-gray-300 mb-4"><strong>Créé le :</strong> {{ report.created|date:"Y-m-d H:i" }}</p>
+    <p class="text-gray-100 mb-4 whitespace-pre-wrap">{{ report.text }}</p>
+  
+    {% if not report.fixed %}
+      <form method="post" action="{% url 'reports:report_detail' report.pk %}">
+        {% csrf_token %}
+        <input type="hidden" name="fix" value="1">
+        <button type="submit" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-white cursor-pointer" onclick="return confirm('Confirmer que les pannes ont été corrigées pour ce rapport ?');">
+          <i class="fas fa-check mr-1"></i> Marquer comme corrigé
+        </button>
+      </form>
+    {% else %}
+      <span class="text-sm text-green-400 font-semibold">Ce rapport est déjà marqué comme résolu.</span>
+    {% endif %}
+  </div>
+  

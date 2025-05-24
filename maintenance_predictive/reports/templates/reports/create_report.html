@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block title %}Écrire un rapport{% endblock %}
+{% block page_title %}ECRIRE RAPPORT D'INCIDENCE OU DE MAINTENANCE{% endblock %}
+
+{% block content %}
+  <div class="max-w-2xl mx-auto bg-gray-800 p-6 rounded shadow space-y-6">
+    <form method="post" class="space-y-6">
+      {% csrf_token %}
+      {% for field in form %}
+        {% if field.field.widget.input_type == "checkbox" %}
+          <div class="flex items-center space-x-2">
+            <label class="text-sm text-gray-300">
+              {{ field.label }}
+            </label>
+            {% render_field field class="form-checkbox h-5 w-5 text-green-500" %}
+            
+          </div>
+          {% if field.errors %}
+            <div class="text-red-400 text-sm ml-7">{{ field.errors }}</div>
+          {% endif %}
+        {% else %}
+          <div>
+            <label class="block text-sm font-medium text-gray-300 mb-1">
+              {{ field.label_tag }}
+            </label>
+            {% if field.errors %}
+              <div class="text-red-400 text-sm">{{ field.errors }}</div>
+            {% endif %}
+            {% render_field field class="w-full p-2 bg-gray-700 text-white rounded" %}
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      <button type="submit"
+              class="px-4 py-2 bg-green-500 hover:bg-green-600 rounded text-white font-semibold cursor-pointer">
+        <i class="fas fa-save mr-1"></i> Enregistrer le rapport
+      </button>
+    </form>
+
+    <div class="text-right">
+      <a href="{% url 'reports:list_reports' %}" class="text-orange-400 hover:underline">
+        <i class="fas fa-arrow-left mr-1"></i> Retour à la liste
+      </a>
+    </div>
+  </div>
+{% endblock %}

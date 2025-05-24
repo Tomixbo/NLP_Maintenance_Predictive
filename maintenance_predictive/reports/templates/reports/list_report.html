@@ -1,0 +1,262 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load filters %}
+
+{% block title %}Liste des rapports{% endblock %}
+{% block page_title %}LISTE DES RAPPORTS{% endblock %}
+
+{% block content %}
+<div class="space-y-8">
+
+  <!-- Bouton création -->
+  <div class="text-right select-none">
+    <a href="{% url 'reports:create_report' %}"
+       class="inline-block px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded font-semibold select-none">
+      <i class="fas fa-plus mr-2"></i> Écrire un rapport
+    </a>
+  </div>
+
+  <!-- === SECTION : À TRAITER === -->
+  <section>
+    <h2 data-toggle="to-do"
+        class="flex space-x-4 items-center text-xl font-bold mb-2 cursor-pointer select-none">
+      <span>Incidents à traiter</span>
+      <div id="icon-to-do-down">
+        <i  class="fas fa-chevron-down"></i>   
+      </div>
+      <div id="icon-to-do-up" class="hidden">
+        <i    class="fas fa-chevron-up"></i>
+      </div>
+      
+    </h2>
+    <div id="to-do" class="overflow-auto max-h-96">
+      <table class="min-w-full table-auto text-left">
+        <thead class="text-gray-400 uppercase text-sm select-none">
+          <tr>
+            <!-- Date -->
+            <th class="px-4 py-2 cursor-pointer">
+              <a href="?order_by=created&direction={% if order_by == "created" and direction == "asc" %}desc{% else %}asc{% endif %}"
+                 class="flex items-center select-none">
+                Date
+                {% if order_by == "created" %}
+                  {% if direction == "asc" %}
+                    <i class="fas fa-sort-up ml-1 text-xs"></i>
+                  {% else %}
+                    <i class="fas fa-sort-down ml-1 text-xs"></i>
+                  {% endif %}
+                {% else %}
+                  <i class="fas fa-sort ml-1 text-xs"></i>
+                {% endif %}
+              </a>
+            </th>
+
+            <!-- Dispositif -->
+            <th class="px-4 py-2 cursor-pointer">
+              <a href="?order_by=device&direction={% if order_by == "device" and direction == "asc" %}desc{% else %}asc{% endif %}"
+                 class="flex items-center select-none">
+                Dispositif
+                {% if order_by == "device" %}
+                  {% if direction == "asc" %}
+                    <i class="fas fa-sort-up ml-1 text-xs"></i>
+                  {% else %}
+                    <i class="fas fa-sort-down ml-1 text-xs"></i>
+                  {% endif %}
+                {% else %}
+                  <i class="fas fa-sort ml-1 text-xs"></i>
+                {% endif %}
+              </a>
+            </th>
+
+            <!-- Élément concerné -->
+            <th class="px-4 py-2">Élément concerné</th>
+
+            <!-- Criticité -->
+            <th class="px-4 py-2 cursor-pointer">
+              <a href="?order_by=score&direction={% if order_by == "score" and direction == "asc" %}desc{% else %}asc{% endif %}"
+                 class="flex items-center select-none">
+                Criticité
+                {% if order_by == "score" %}
+                  {% if direction == "asc" %}
+                    <i class="fas fa-sort-up ml-1 text-xs"></i>
+                  {% else %}
+                    <i class="fas fa-sort-down ml-1 text-xs"></i>
+                  {% endif %}
+                {% else %}
+                  <i class="fas fa-sort ml-1 text-xs"></i>
+                {% endif %}
+              </a>
+            </th>
+
+            <!-- Statut -->
+            <th class="px-4 py-2">Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in to_do %}
+            <tr class="bg-gray-800 hover:bg-gray-700 cursor-pointer select-none" data-id="{{ r.id }}">
+              <td class="px-4 py-2">{{ r.created|date:"Y-m-d H:i" }}</td>
+              <td class="px-4 py-2">{{ r.device|default:"—" }}</td>
+              <td class="px-4 py-2">{{ r.component }}</td>
+              <td class="px-4 py-2 w-48" data-sort-value="{{ r.score|floatformat:2 }}">
+                <div class="relative w-full h-4 rounded overflow-hidden">
+                  <div class="absolute inset-0 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500"></div>
+                  <div class="absolute inset-y-0 right-0 bg-gray-800"
+                       style="width: calc(100% - {{ r.score|mul:100|floatformat:0 }}% );">
+                  </div>
+                </div>
+              </td>
+              <td class="px-4 py-2">
+                <span class="px-3 py-1 bg-red-600 rounded-full text-sm select-none">À traiter</span>
+              </td>
+            </tr>
+          {% empty %}
+            <tr>
+              <td colspan="5" class="text-center py-4 text-gray-400">Aucun rapport à traiter.</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- === SECTION : RÉSOLUS === -->
+  <section>
+    <h2 data-toggle="done"
+        class="flex space-x-4 items-center text-xl font-bold mb-2 cursor-pointer select-none">
+      <span>Rapports résolus / archivés</span>
+      <div id="icon-done-down">
+        <i  class="fas fa-chevron-down"></i>   
+      </div>
+      <div id="icon-done-up" class="hidden">
+        <i    class="fas fa-chevron-up"></i>
+      </div>
+    </h2>
+    <div id="done" class="overflow-auto max-h-96 hidden">
+      <table class="min-w-full table-auto text-left">
+        <thead class="text-gray-400 uppercase text-sm select-none">
+          <tr>
+            <!-- Date -->
+            <th class="px-4 py-2 cursor-pointer">
+              <a href="?order_by=created&direction={% if order_by == "created" and direction == "asc" %}desc{% else %}asc{% endif %}"
+                 class="flex items-center select-none">
+                Date
+                {% if order_by == "created" %}
+                  {% if direction == "asc" %}
+                    <i class="fas fa-sort-up ml-1 text-xs"></i>
+                  {% else %}
+                    <i class="fas fa-sort-down ml-1 text-xs"></i>
+                  {% endif %}
+                {% else %}
+                  <i class="fas fa-sort ml-1 text-xs"></i>
+                {% endif %}
+              </a>
+            </th>
+
+            <!-- Dispositif -->
+            <th class="px-4 py-2 cursor-pointer">
+              <a href="?order_by=device&direction={% if order_by == "device" and direction == "asc" %}desc{% else %}asc{% endif %}"
+                 class="flex items-center select-none">
+                Dispositif
+                {% if order_by == "device" %}
+                  {% if direction == "asc" %}
+                    <i class="fas fa-sort-up ml-1 text-xs"></i>
+                  {% else %}
+                    <i class="fas fa-sort-down ml-1 text-xs"></i>
+                  {% endif %}
+                {% else %}
+                  <i class="fas fa-sort ml-1 text-xs"></i>
+                {% endif %}
+              </a>
+            </th>
+
+            <!-- Élément concerné -->
+            <th class="px-4 py-2">Élément concerné</th>
+
+            <!-- Criticité -->
+            <th class="px-4 py-2 cursor-pointer">
+              <a href="?order_by=score&direction={% if order_by == "score" and direction == "asc" %}desc{% else %}asc{% endif %}"
+                 class="flex items-center select-none">
+                Criticité
+                {% if order_by == "score" %}
+                  {% if direction == "asc" %}
+                    <i class="fas fa-sort-up ml-1 text-xs"></i>
+                  {% else %}
+                    <i class="fas fa-sort-down ml-1 text-xs"></i>
+                  {% endif %}
+                {% else %}
+                  <i class="fas fa-sort ml-1 text-xs"></i>
+                {% endif %}
+              </a>
+            </th>
+
+            <!-- Statut -->
+            <th class="px-4 py-2">Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in done %}
+            <tr class="bg-gray-800 hover:bg-gray-700 cursor-pointer select-none" data-id="{{ r.id }}">
+              <td class="px-4 py-2">{{ r.created|date:"Y-m-d H:i" }}</td>
+              <td class="px-4 py-2">{{ r.device|default:"—" }}</td>
+              <td class="px-4 py-2">{{ r.component }}</td>
+              <td class="px-4 py-2 w-48" data-sort-value="{{ r.score|floatformat:2 }}">
+                <div class="relative w-full h-4 rounded overflow-hidden">
+                  <div class="absolute inset-0 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500"></div>
+                  <div class="absolute inset-y-0 right-0 bg-gray-800"
+                       style="width: calc(100% - {{ r.score|mul:100|floatformat:0 }}% );">
+                  </div>
+                </div>
+              </td>
+              <td class="px-4 py-2">
+                <span class="px-3 py-1 bg-green-600 rounded-full text-sm select-none">Résolu</span>
+              </td>
+            </tr>
+          {% empty %}
+            <tr>
+              <td colspan="5" class="text-center py-4 text-gray-400">Aucun rapport résolu.</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</div>
+
+<!-- Modal vide -->
+<div id="modal" class="fixed inset-0 bg-black/50 hidden flex items-center justify-center z-50 select-none">
+  <div class="bg-gray-900 p-6 rounded-lg max-w-xl w-full shadow-lg relative">
+    <button id="modal-close" class="absolute top-8 right-8 text-gray-400 hover:text-white cursor-pointer">
+      <i class="fas fa-times"></i>
+    </button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+  // Collapse toggle
+  ['to-do','done'].forEach(id => {
+    const btn = document.querySelector(`[data-toggle="${id}"]`);
+    btn.addEventListener('click', () => {
+      document.getElementById(id).classList.toggle('hidden');
+      document.getElementById(`icon-${id}-down`).classList.toggle('hidden');
+      document.getElementById(`icon-${id}-up`).classList.toggle('hidden');
+    });
+  });
+
+  // Modal detail
+  document.querySelectorAll('tr[data-id]').forEach(row => {
+    row.addEventListener('click', () => {
+      fetch(`/detail/${row.dataset.id}/`)
+        .then(r => r.text())
+        .then(html => {
+          document.getElementById('modal-content').innerHTML = html;
+          document.getElementById('modal').classList.remove('hidden');
+        });
+    });
+  });
+  document.getElementById('modal-close').addEventListener('click', () => {
+    document.getElementById('modal').classList.add('hidden');
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,1001 @@
+﻿date,technicien,site,equipement,rapport,type_anomalie,panne_critique
+2025-01-18,Julie Muller,Site hybride de Montpellier,Date/heure,Erreur de conversion de date ISO8601.,logiciel,0
+2025-01-08,Samir Morel,Parc éolien d’Amiens,capteur irradiance,Valeurs nulles enregistrées sur le capteur irradiance.,capteur,1
+2024-11-28,Alex Blanc,Site éolien de Reims,soudure / joints,Fragilité de l’assemblage soudé sur un élément transversal.,structurelle,1
+2024-06-28,Jordan Bernard,Unité solaire d’Avignon,Charge / Impédance,Résistance de charge anormalement élevée.,électrique,0
+2024-06-08,Antoine Muller,Unité solaire d’Avignon,Endpoints/API,La réponse JSON ne correspond pas au schéma attendu.,logiciel,0
+2025-05-04,Nina Petit,Station solaire de Perpignan,profilés métalliques,Le profil en L présente un renflement anormal.,structurelle,0
+2024-07-15,Camille Blanc,Parc éolien d’Amiens,Disjoncteurs / Protection,Surintensité déclenchée par le disjoncteur.,électrique,1
+2024-12-09,Samir Roux,Parc éolien d’Amiens,Contrôle / Commande,Niveau de signal électrique instable mesuré.,électrique,0
+2024-05-31,Nina Renard,Plateforme éolienne de Brest,corrosion / humidité,Corrosion structurelle favorisée par un environnement humide.,structurelle,1
+2025-01-05,Julie Petit,Station photovoltaïque de Strasbourg,capteur courant,Saturation du capteur de courant.,capteur,1
+2024-06-14,Antoine Giraud,Station photovoltaïque de Strasbourg,comportement sous charge / vent,Mouvement anormal lors des rafales de vent.,structurelle,1
+2024-07-09,Léa Petit,Parc éolien d’Amiens,Ressort de rappel Enerdrive,Tension de rappel insuffisante due à rupture interne.,mécanique,1
+2025-04-26,Léa Roux,Centrale solaire de Bordeaux,boîtier capteur,Présence d’eau détectée à l’intérieur du capteur.,capteur,1
+2025-04-07,Sophie Muller,Station solaire de Perpignan,Charge / Impédance,Charge avec impédance excessive mesurée sur le circuit.,électrique,0
+2025-02-20,Camille Petit,Station solaire de Perpignan,pales,Anomalie structurelle observée sur l'une des pales.,structurelle,1
+2024-07-14,Julie Lefèvre,Ferme solaire de Nîmes,Condensateurs,Les condensateurs internes ont atteint une température critique.,électrique,1
+2024-11-03,Samir Bernard,Éolienne offshore de Saint-Nazaire,Rendement / Température,Baisse de rendement suite à surchauffe interne.,électrique,1
+2025-03-10,Camille Garnier,Station photovoltaïque de Strasbourg,pales,Une pale présente une courbure anormale.,structurelle,1
+2025-02-09,Alex Roux,Ferme solaire de Toulouse,Configuration système,Mauvaise configuration du fichier .env.,logiciel,0
+2024-07-30,Sophie Muller,Plateforme éolienne de Brest,attaches extérieures,Les attaches extérieures sont fortement oxydées.,structurelle,1
+2025-03-31,Samir Lefèvre,Station photovoltaïque de Strasbourg,Éolienne Vestas V90,Bruit harmonique constant entendu lors de l’utilisation normale.,mécanique,1
+2025-04-27,Alex Bernard,Parc éolien de Lille,structures portantes,Structure porteuse tordue au-delà des limites tolérées.,structurelle,1
+2024-07-09,Antoine Renard,Station solaire de Perpignan,attaches extérieures,Corrosion avancée sur les attaches extérieures.,structurelle,1
+2024-06-07,Jordan Roux,Site hybride de Montpellier,Système d’orientation de nacelle,Mouvement de torsion non uniforme détecté.,mécanique,1
+2024-11-14,Sophie Giraud,Centrale solaire de Bordeaux,Analyse/logs,Logs corrompus lors de l’analyse des données.,logiciel,0
+2024-07-01,Camille Petit,Station solaire de Perpignan,Synchronisation,Les modules du système ne sont plus correctement synchronisés.,logiciel,1
+2024-09-14,Antoine Lefèvre,Parc éolien d’Amiens,mât principal,Une fissure nette est apparente à la base de la structure.,structurelle,1
+2025-04-23,Jordan Renard,Station mixte de Marseille,Modbus/communication locale,Timeout régulier sur protocole Modbus.,logiciel,0
+2024-06-05,Sophie Bernard,Site éolien de Reims,Régulation / Contrôleur,Instabilité causée par un défaut de régulation active.,électrique,1
+2024-12-02,Nina Garnier,Station solaire de Perpignan,Module principal de rotation,Basculement anormal de l’assemblage principal.,mécanique,1
+2025-05-05,Julie Muller,Parc hybride de Grenoble,capteur uv,La plage de mesure UV est dépassée par excès d’ensoleillement.,capteur,0
+2024-07-10,Sophie Roux,Site éolien de Reims,Transformateur,Niveau d’isolement insuffisant mesuré.,électrique,1
+2025-04-22,Léa Muller,Station photovoltaïque de Strasbourg,Parasites / EMI,Bruits parasites transmis par la ligne.,électrique,0
+2024-05-25,Camille Garnier,Unité solaire d’Avignon,Surveillance/monitoring,Le module de monitoring s’est arrêté de façon imprévue.,logiciel,0
+2025-02-08,Camille Roux,Site éolien de Reims,MQTT,Boucle de reconnection infinie au broker MQTT.,logiciel,1
+2025-04-04,Nina Giraud,Parc éolien d’Amiens,corrosion / humidité,Corrosion structurelle favorisée par un environnement humide.,structurelle,1
+2025-04-16,Léa Petit,Site éolien de Reims,fixations diverses,Cristallisation saline observée autour des boulons.,structurelle,0
+2024-05-30,Sophie Lefèvre,Parc hybride de Grenoble,Stabilité / Fréquence,Dérive de tension après charge prolongée.,électrique,0
+2025-02-07,Sophie Renard,Ferme solaire de Nîmes,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2025-01-17,Antoine Roux,Station photovoltaïque de Strasbourg,Rendement / Température,Baisse de rendement suite à surchauffe interne.,électrique,1
+2025-01-08,Samir Muller,Ferme solaire de Toulouse,Date/heure,Erreur de conversion de date ISO8601.,logiciel,0
+2024-11-19,Samir Muller,Parc éolien de Lille,Transformateur,Risque d’arc dû à une mauvaise isolation du transfo.,électrique,1
+2025-03-10,Jordan Garnier,Station photovoltaïque de Strasbourg,Enveloppe externe nacelle,Impact anormal enregistré en conditions venteuses.,mécanique,1
+2025-03-04,Camille Garnier,Plateforme éolienne de Brest,Sécurité/authentification,Certificat SSL expiré non renouvelé.,logiciel,1
+2025-04-23,Nina Blanc,Parc éolien de Lille,capteur remise sous tension,Aucun signal après extinction et remise sous tension du capteur.,capteur,1
+2025-04-11,Camille Muller,Site hybride de Montpellier,Traverse de rotation SMC,Fragilité de l’assemblage soudé sur un élément transversal.,mécanique,1
+2024-09-06,Hugo Roux,Ferme solaire de Toulouse,boîtier capteur,Infiltration de condensation compromettant le fonctionnement du capteur.,capteur,1
+2024-12-22,Jordan Bernard,Site hybride de Montpellier,microcontroleur interne,Bogue dans le microcontrôleur intégré.,capteur,1
+2024-07-29,Sophie Lefèvre,Parc éolien d’Amiens,Enveloppe externe nacelle,Impact anormal enregistré en conditions venteuses.,mécanique,1
+2024-08-22,Camille Renard,Parc éolien de Lille,capteur mémoire,Défaut de la mémoire tampon interne.,capteur,1
+2024-05-19,Alex Bernard,Station photovoltaïque de Strasbourg,Réducteur de vitesse Flender,Bruit suspect dans la boîte de transmission.,mécanique,0
+2024-05-05,Alex Lefèvre,Station solaire de Perpignan,corrosion / humidité,Pellicule de rouille sur l’ossature.,structurelle,0
+2025-05-04,Antoine Blanc,Station photovoltaïque de Strasbourg,Système de refroidissement électrique,Système de refroidissement électrique inefficace.,électrique,1
+2024-05-07,Camille Blanc,Site hybride de Montpellier,Guide de palier H-Tech,Le guide glisse de façon imprévisible.,mécanique,0
+2024-10-23,Samir Garnier,Station mixte de Marseille,Modbus/communication locale,Le protocole Modbus retourne fréquemment une expiration de délai.,logiciel,0
+2024-06-03,Samir Muller,Ferme solaire de Nîmes,Performance,Blocage du thread principal sous charge.,logiciel,1
+2024-10-27,Samir Lefèvre,Parc éolien d’Amiens,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-07-15,Sophie Blanc,Unité solaire d’Avignon,Guide de palier H-Tech,Coulissement brusque du guide de palier.,mécanique,0
+2025-01-11,Alex Roux,Site éolien de Reims,Surveillance/monitoring,Collecte de métriques interrompue.,logiciel,0
+2024-06-04,Sophie Renard,Ferme solaire de Nîmes,soudure / joints,Des fissures rayonnent depuis un trou de fixation.,structurelle,1
+2024-08-25,Léa Garnier,Éolienne offshore de Saint-Nazaire,Contrôle / Commande,Fluctuation imprévue de l’amplitude du courant.,électrique,0
+2024-11-22,Léa Blanc,Unité solaire d’Avignon,Phases et Réseau triphasé,Déséquilibre de phase détecté.,électrique,1
+2024-08-08,Julie Lefèvre,Parc éolien d’Amiens,Support d’orientation axial Nordex,La chaîne présente un jeu longitudinal inhabituel.,mécanique,1
+2025-05-03,Jordan Muller,Parc éolien de Lille,Analyse/logs,Les journaux atteignent une taille anormalement grande.,logiciel,0
+2025-01-14,Hugo Lefèvre,Parc éolien d’Amiens,PWM / Sortie signal,Modulation d’impulsions erratique mesurée.,électrique,0
+2024-08-22,Jordan Muller,Station solaire de Perpignan,Sécurité/authentification,Certificat SSL expiré non renouvelé.,logiciel,1
+2024-12-25,Antoine Giraud,Station mixte de Marseille,capteur mémoire,La mémoire cache du capteur ne fonctionne plus correctement.,capteur,1
+2025-01-17,Hugo Giraud,Site hybride de Montpellier,capteur liquide,Présence d’air dans le canal du capteur.,capteur,1
+2025-01-01,Antoine Lefèvre,Unité solaire d’Avignon,Phases et Réseau triphasé,Mauvaise synchronisation entre les phases constatée.,électrique,1
+2024-12-17,Samir Roux,Site éolien de Reims,Fusibles,Le fusible de protection a sauté.,électrique,1
+2024-09-25,Hugo Giraud,Station photovoltaïque de Strasbourg,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2025-03-20,Antoine Lefèvre,Parc hybride de Grenoble,fixations diverses,Encroûtement de sel sur les fixations.,structurelle,0
+2025-01-12,Hugo Lefèvre,Parc hybride de Grenoble,MQTT,Le service tente sans cesse de se reconnecter au serveur MQTT.,logiciel,1
+2025-03-31,Samir Lefèvre,Parc éolien de Lille,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-09-22,Hugo Renard,Parc éolien d’Amiens,MQTT,Boucle de reconnection infinie au broker MQTT.,logiciel,1
+2025-04-07,Camille Lefèvre,Parc éolien d’Amiens,profilés métalliques,Ondulation du profilé d'acier.,structurelle,0
+2024-08-27,Antoine Lefèvre,Éolienne offshore de Saint-Nazaire,attaches extérieures,Corrosion avancée sur les attaches extérieures.,structurelle,1
+2024-06-25,Hugo Muller,Site hybride de Montpellier,Performance,Blocage du thread principal sous charge.,logiciel,1
+2025-04-01,Alex Muller,Parc éolien de Lille,Support d’orientation axial Nordex,Allongement excessif de la chaîne de transmission.,mécanique,1
+2024-06-08,Hugo Giraud,Station photovoltaïque de Strasbourg,Système hydraulique de freinage Parker,Le système absorbe mal les vibrations.,mécanique,0
+2024-09-09,Samir Morel,Parc éolien d’Amiens,Synchronisation,Défaillance de synchronisation système.,logiciel,1
+2024-12-24,Hugo Garnier,Unité solaire d’Avignon,Pignons d’entraînement Transtecno,Décrochage occasionnel des dents d’engrenage.,mécanique,1
+2025-03-07,Jordan Morel,Éolienne offshore de Saint-Nazaire,capteur uv,Le capteur UV ne peut plus mesurer correctement en raison d’une exposition intense.,capteur,0
+2024-06-17,Nina Blanc,Station solaire de Perpignan,capteur pressions,Oscillation rapide du signal de pression.,capteur,1
+2025-03-13,Nina Petit,Ferme solaire de Toulouse,Arbre principal SKF 800mm,Une déviation inhabituelle du bras est visible.,mécanique,0
+2025-04-18,Nina Garnier,Parc éolien de Lille,comportement sous charge / vent,La structure s’est décalée de son axe initial.,structurelle,1
+2024-08-30,Antoine Renard,Unité solaire d’Avignon,filtrage et bruit,Bruit de fond excessif dans la mesure.,capteur,0
+2025-04-24,Camille Petit,Site éolien de Reims,SCADA,Activation incorrecte du mécanisme de surveillance logicielle.,logiciel,1
+2024-05-09,Hugo Blanc,Station mixte de Marseille,Analyse/logs,Fichiers de log trop volumineux.,logiciel,0
+2025-01-22,Jordan Bernard,Parc hybride de Grenoble,Frein de rotor Svendborg,Libération incomplète du système de freinage.,mécanique,1
+2025-04-05,Nina Lefèvre,Station solaire de Perpignan,Onduleur principal,L’onduleur redémarre en boucle sans succès.,électrique,1
+2025-02-01,Léa Blanc,Plateforme éolienne de Brest,comportement sous charge / vent,Glissement horizontal de l’ensemble détecté.,structurelle,1
+2025-03-24,Hugo Renard,Ferme solaire de Toulouse,traverse principale,Indentation dans la traverse principale.,structurelle,0
+2024-07-24,Léa Petit,Station solaire de Perpignan,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2025-03-14,Camille Garnier,Parc éolien de Lille,Surveillance/monitoring,Collecte de métriques interrompue.,logiciel,0
+2024-12-19,Jordan Garnier,Station mixte de Marseille,capteur uv,Le capteur UV ne peut plus mesurer correctement en raison d’une exposition intense.,capteur,0
+2024-06-27,Sophie Muller,Parc éolien de Lille,Configuration système,Paramètre manquant dans le fichier YAML.,logiciel,0
+2024-10-09,Hugo Petit,Parc éolien de Lille,Phases et Réseau triphasé,Les phases présentent un courant déséquilibré.,électrique,1
+2024-06-08,Samir Blanc,Station solaire de Perpignan,boîtier capteur,Infiltration de condensation compromettant le fonctionnement du capteur.,capteur,1
+2024-10-16,Nina Lefèvre,Station photovoltaïque de Strasbourg,peinture / revêtement,Perte d’adhérence partielle du traitement de surface.,structurelle,0
+2025-05-04,Sophie Blanc,Parc hybride de Grenoble,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2025-01-30,Camille Lefèvre,Unité solaire d’Avignon,Transformateur,Basse isolation du transformateur.,électrique,1
+2024-09-11,Alex Blanc,Station mixte de Marseille,Barrière anti-retour,Le système de non-retour s’est ouvert inopinément.,électrique,1
+2024-05-09,Julie Blanc,Parc éolien de Lille,Palier de moyeu GE Wind Energy,Fatigue des matériaux sur le palier d’axe.,mécanique,1
+2024-10-17,Antoine Morel,Éolienne offshore de Saint-Nazaire,Palier de moyeu GE Wind Energy,Le palier présente des irrégularités de surface.,mécanique,0
+2024-05-14,Hugo Giraud,Parc éolien de Lille,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2024-09-22,Léa Morel,Station mixte de Marseille,Firmware,Firmware instable après mise à jour.,logiciel,1
+2024-07-25,Jordan Renard,Station photovoltaïque de Strasbourg,Régulation / Contrôleur,Le régulateur interne n’assure plus sa fonction.,électrique,1
+2025-04-07,Alex Giraud,Plateforme éolienne de Brest,capteur thermique,Dérive thermique observée à 40°C.,capteur,0
+2025-04-28,Samir Garnier,Ferme solaire de Nîmes,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2024-06-13,Camille Blanc,Station solaire de Perpignan,Relais / Commutation,Réactivation intempestive du relais principal.,électrique,0
+2025-01-07,Antoine Garnier,Station solaire de Perpignan,Erreurs d'exécution,Une erreur non gérée a entraîné l’arrêt du programme.,logiciel,1
+2025-02-15,Julie Garnier,Parc hybride de Grenoble,Arbre principal SKF 800mm,Usure linéaire visible sur le corps de l’arbre.,mécanique,1
+2024-11-17,Julie Giraud,Plateforme éolienne de Brest,capteur irradiance,Aucune valeur lumineuse détectée par le capteur solaire.,capteur,1
+2024-05-13,Nina Muller,Plateforme éolienne de Brest,Phases et Réseau triphasé,Inversion de phase détectée par le SCADA.,électrique,1
+2025-02-24,Léa Muller,Plateforme éolienne de Brest,pales,Une pale présente une courbure anormale.,structurelle,1
+2024-12-30,Sophie Petit,Centrale solaire de Bordeaux,dilatation thermique,Absence de joint de dilatation adéquat constatée.,structurelle,1
+2025-02-09,Samir Muller,Site éolien de Reims,Système hydraulique de freinage Parker,Le système absorbe mal les vibrations.,mécanique,0
+2024-09-19,Jordan Garnier,Site hybride de Montpellier,Module de sécurité mécanique Nidec,Système de positionnement figé par moments.,mécanique,1
+2024-05-12,Camille Giraud,Site éolien de Reims,Frein de rotor Svendborg,Blocage par grippage dû à la rouille.,mécanique,1
+2025-04-03,Hugo Roux,Éolienne offshore de Saint-Nazaire,Erreurs d'exécution,Une erreur non gérée a entraîné l’arrêt du programme.,logiciel,1
+2024-11-05,Léa Muller,Station solaire de Perpignan,plateforme d’ancrage,Déséquilibre topographique détecté sur la zone d’ancrage.,structurelle,0
+2025-04-22,Léa Garnier,Station photovoltaïque de Strasbourg,Contrôle / Commande,Erreur de calibration du capteur de courant.,électrique,0
+2024-11-20,Sophie Blanc,Centrale solaire de Bordeaux,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2025-01-17,Julie Roux,Ferme solaire de Toulouse,capteur diaphragme,Microfissure détectée sur le diaphragme.,capteur,1
+2024-11-21,Alex Bernard,Centrale solaire de Bordeaux,Enveloppe externe nacelle,Impact anormal enregistré en conditions venteuses.,mécanique,1
+2025-02-07,Jordan Bernard,Unité solaire d’Avignon,microcontroleur interne,Le microcontrôleur embarqué présente un dysfonctionnement logiciel.,capteur,1
+2024-08-12,Jordan Giraud,Plateforme éolienne de Brest,Firmware,Échec de la mise à jour incrémentale.,logiciel,1
+2024-08-18,Alex Muller,Parc hybride de Grenoble,capteur uv,Le capteur UV ne peut plus mesurer correctement en raison d’une exposition intense.,capteur,0
+2024-12-02,Sophie Garnier,Ferme solaire de Nîmes,Système de refroidissement électrique,Défaillance du système de dissipation thermique.,électrique,1
+2025-01-30,Samir Giraud,Ferme solaire de Nîmes,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2024-07-19,Alex Muller,Site éolien de Reims,capteur remise sous tension,Blocage du capteur après mise hors tension.,capteur,1
+2025-01-11,Hugo Roux,Plateforme éolienne de Brest,Barrière anti-retour,Dégrèvement anormal de la barrière anti-retour.,électrique,1
+2024-10-02,Samir Petit,Site éolien de Reims,capteur diaphragme,Fissuration visible sur la membrane de détection.,capteur,1
+2025-03-10,Julie Giraud,Éolienne offshore de Saint-Nazaire,Surveillance/monitoring,Collecte de métriques interrompue.,logiciel,0
+2025-03-25,Hugo Bernard,Centrale solaire de Bordeaux,Éolienne Vestas V90,Résonance audible sous charge nominale.,mécanique,1
+2025-03-30,Julie Renard,Parc éolien de Lille,Synchronisation,Les modules du système ne sont plus correctement synchronisés.,logiciel,1
+2024-08-12,Alex Renard,Station photovoltaïque de Strasbourg,structures portantes,Torsion excessive du cadre support.,structurelle,1
+2024-10-23,Samir Lefèvre,Parc éolien d’Amiens,Système hydraulique de freinage Parker,Amortisseur défectueux ne réduisant pas les chocs.,mécanique,0
+2024-06-30,Léa Lefèvre,Station photovoltaïque de Strasbourg,capteur multifonction,Fréquence d’échantillonnage insuffisante pour certains événements.,capteur,1
+2024-06-09,Jordan Roux,Site hybride de Montpellier,Palier de moyeu GE Wind Energy,Le palier présente des irrégularités de surface.,mécanique,0
+2024-12-01,Léa Giraud,Unité solaire d’Avignon,Arbre principal SKF 800mm,Traces de frottement marquées sur l’axe.,mécanique,1
+2024-05-22,Samir Muller,Éolienne offshore de Saint-Nazaire,Contrôle / Commande,Signal de commande électrique absent.,électrique,1
+2025-03-18,Samir Blanc,Centrale solaire de Bordeaux,fixations diverses,Encroûtement de sel sur les fixations.,structurelle,0
+2025-01-15,Léa Bernard,Station solaire de Perpignan,fixations structurelles,Le gond de fixation est instable.,structurelle,1
+2024-06-02,Samir Garnier,Ferme solaire de Nîmes,Frein de rotor Svendborg,Libération incomplète du système de freinage.,mécanique,1
+2024-05-14,Antoine Blanc,Ferme solaire de Nîmes,rails / guidage,Déformation permanente du rail de guidage.,structurelle,1
+2024-09-03,Jordan Renard,Unité solaire d’Avignon,Régulation / Contrôleur,Instabilité causée par un défaut de régulation active.,électrique,1
+2024-11-27,Nina Petit,Parc éolien de Lille,Contrôle / Commande,Données faussées à cause d’un capteur mal étalonné.,électrique,0
+2024-12-08,Léa Lefèvre,Éolienne offshore de Saint-Nazaire,capteur transitoire,Lectures erronées enregistrées lors des changements brusques.,capteur,1
+2024-05-29,Léa Blanc,Ferme solaire de Nîmes,Système hydraulique de freinage Parker,Défaut de l’amortisseur détecté à l’inspection.,mécanique,0
+2025-04-25,Alex Petit,Parc éolien de Lille,comportement sous charge / vent,Déplacement latéral de la structure.,structurelle,1
+2024-07-27,Jordan Lefèvre,Parc hybride de Grenoble,Transformateur,Basse isolation du transformateur.,électrique,1
+2025-01-22,Sophie Giraud,Ferme solaire de Toulouse,structures portantes,Alignement anormal des structures portantes.,structurelle,1
+2024-05-18,Sophie Giraud,Station photovoltaïque de Strasbourg,Éolienne Vestas V90,Mouvement de l’hélice restreint par un blocage partiel.,mécanique,1
+2025-02-23,Nina Petit,Site éolien de Reims,Disjoncteurs / Protection,Surintensité déclenchée par le disjoncteur.,électrique,1
+2024-07-16,Hugo Giraud,Parc hybride de Grenoble,Ensemble de fixation Rotek,Serrage défaillant des vis de fixation.,mécanique,1
+2025-02-17,Léa Muller,Site éolien de Reims,capteur vibration,Le capteur de vibration cesse de fonctionner par moments.,capteur,1
+2024-06-09,Alex Muller,Station mixte de Marseille,structures portantes,La structure a perdu sa verticalité suite à un impact.,structurelle,1
+2024-11-23,Hugo Muller,Parc hybride de Grenoble,capteur pressions,Fluctuations rapides du signal issues du transducteur de pression.,capteur,1
+2024-09-12,Sophie Roux,Station mixte de Marseille,microcontroleur interne,Blocage logiciel interne sur la puce du capteur constaté.,capteur,1
+2025-04-12,Léa Lefèvre,Parc éolien d’Amiens,Réducteur de vitesse Flender,Bruit suspect dans la boîte de transmission.,mécanique,0
+2024-12-19,Samir Morel,Station mixte de Marseille,capteur oscillateur,"Horloge du capteur imprécise, induisant des erreurs temporelles.",capteur,0
+2025-02-27,Julie Renard,Station mixte de Marseille,limites mécaniques,Comportement non linéaire observé sous sollicitation forte.,structurelle,1
+2024-05-06,Sophie Muller,Station mixte de Marseille,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2025-03-03,Sophie Bernard,Station mixte de Marseille,Ligne AC / Alimentation secteur,Coupure de courant survenue sans préavis.,électrique,1
+2024-10-29,Sophie Blanc,Station solaire de Perpignan,Condensateurs,Surchauffe des condensateurs internes.,électrique,1
+2025-03-01,Camille Blanc,Centrale solaire de Bordeaux,Analyse/logs,Les journaux système sont illisibles ou altérés.,logiciel,0
+2024-08-21,Samir Garnier,Ferme solaire de Toulouse,fondations,Soulèvement du pavage sous le mât.,structurelle,0
+2025-02-27,Hugo Petit,Site hybride de Montpellier,Quota et accès,Le nombre d’appels API autorisé a été excédé.,logiciel,0
+2024-07-08,Jordan Muller,Plateforme éolienne de Brest,capteur uv,Capteur UV saturé en plein soleil.,capteur,0
+2024-12-23,Nina Blanc,Site éolien de Reims,Ligne AC / Alimentation secteur,Tension supérieure à la normale mesurée sur la ligne AC.,électrique,1
+2024-06-12,Jordan Blanc,Parc éolien de Lille,Stabilité / Fréquence,Instabilité fréquentielle sur la ligne électrique.,électrique,0
+2024-10-27,Léa Giraud,Station mixte de Marseille,MQTT,Boucle de reconnection infinie au broker MQTT.,logiciel,1
+2025-03-20,Hugo Petit,Parc hybride de Grenoble,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2024-07-23,Samir Muller,Plateforme éolienne de Brest,mât principal,Inclinaison anormale du mât principal.,structurelle,1
+2024-10-22,Antoine Lefèvre,Éolienne offshore de Saint-Nazaire,Base de données,Valeurs contradictoires détectées dans plusieurs tables SQL.,logiciel,1
+2024-11-09,Jordan Renard,Plateforme éolienne de Brest,Disjoncteurs / Protection,Déclenchement de sécurité suite à surintensité.,électrique,1
+2025-01-25,Antoine Bernard,Site éolien de Reims,profilés métalliques,Le profil en L présente un renflement anormal.,structurelle,0
+2025-01-02,Nina Giraud,Plateforme éolienne de Brest,structures portantes,Inclinaison anormale détectée après un événement brutal.,structurelle,1
+2024-12-02,Léa Lefèvre,Station photovoltaïque de Strasbourg,capteur vent,Capteur de vent ne transmet plus de valeurs.,capteur,1
+2025-02-15,Julie Petit,Station solaire de Perpignan,capteur remise sous tension,Blocage du capteur après mise hors tension.,capteur,1
+2025-02-03,Hugo Roux,Centrale solaire de Bordeaux,Phases et Réseau triphasé,Déséquilibre de phase détecté.,électrique,1
+2024-12-13,Antoine Petit,Parc hybride de Grenoble,Base de données,La base SQLite contient des blocs de données endommagés.,logiciel,1
+2024-09-30,Antoine Blanc,Plateforme éolienne de Brest,comportement sous charge / vent,Comportement dynamique imprévu sous rafale observé.,structurelle,1
+2025-03-12,Antoine Morel,Parc éolien d’Amiens,fondations,Le sol montre des signes d’usure par lessivage.,structurelle,1
+2025-03-18,Julie Bernard,Ferme solaire de Toulouse,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-06-27,Léa Blanc,Unité solaire d’Avignon,Barrière anti-retour,Le système de non-retour s’est ouvert inopinément.,électrique,1
+2025-03-27,Alex Petit,Parc éolien de Lille,Palier de moyeu GE Wind Energy,Le palier présente des irrégularités de surface.,mécanique,0
+2024-09-29,Nina Garnier,Station solaire de Perpignan,capteur shunt,Défaut dans la résistance de shunt intégré au circuit capteur.,capteur,1
+2025-02-07,Julie Garnier,Parc hybride de Grenoble,Sécurité/authentification,Erreur 500 interne sur le dashboard.,logiciel,1
+2024-10-06,Nina Lefèvre,Site éolien de Reims,MQTT,Boucle de reconnection infinie au broker MQTT.,logiciel,1
+2025-02-03,Hugo Roux,Station mixte de Marseille,Système d’orientation de nacelle,Mouvement de torsion non uniforme détecté.,mécanique,1
+2024-09-28,Antoine Garnier,Centrale solaire de Bordeaux,profilés métalliques,Gonflement du cornière métallique.,structurelle,0
+2024-05-30,Léa Muller,Plateforme éolienne de Brest,Traverse de rotation SMC,Soudure craquelée sur la traverse.,mécanique,1
+2024-06-03,Nina Roux,Station solaire de Perpignan,capteur pressions,Le capteur de pression présente des variations instables.,capteur,1
+2025-01-23,Sophie Roux,Site éolien de Reims,capteur courant,Saturation du capteur de courant.,capteur,1
+2025-01-07,Antoine Muller,Centrale solaire de Bordeaux,mât principal,Inclinaison anormale du mât principal.,structurelle,1
+2024-07-01,Hugo Blanc,Unité solaire d’Avignon,Guide de palier H-Tech,Mouvement instable dans la glissière du palier.,mécanique,0
+2024-07-13,Nina Roux,Centrale solaire de Bordeaux,Session/utilisateur,Corruption de la session utilisateur.,logiciel,0
+2025-01-30,Julie Lefèvre,Parc éolien de Lille,fixations diverses,Présence de dépôts blancs sur les ancrages métalliques.,structurelle,0
+2024-09-04,Alex Roux,Station photovoltaïque de Strasbourg,capteur température,Le capteur de température transmet des valeurs contradictoires.,capteur,1
+2024-07-06,Nina Giraud,Station solaire de Perpignan,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2024-12-26,Samir Petit,Plateforme éolienne de Brest,dilatation thermique,Comportement expansif non contrôlé lié à la température.,structurelle,1
+2024-07-16,Alex Blanc,Station photovoltaïque de Strasbourg,Ressort de rappel Enerdrive,Rupture partielle du ressort de rappel.,mécanique,1
+2025-04-02,Camille Lefèvre,Station mixte de Marseille,Ensemble de fixation Rotek,Écrou de serrage tournant librement.,mécanique,0
+2024-08-20,Alex Blanc,Site éolien de Reims,capteur courant,Lecture figée à cause d’un courant supérieur à la plage mesurable.,capteur,1
+2025-02-27,Nina Morel,Parc éolien de Lille,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2025-02-04,Léa Blanc,Site hybride de Montpellier,fondations,Détérioration du matériau de fondation observée.,structurelle,1
+2024-08-09,Hugo Muller,Site éolien de Reims,Ligne AC / Alimentation secteur,Une surtension a été détectée sur la ligne alternative.,électrique,1
+2024-12-25,Jordan Muller,Station photovoltaïque de Strasbourg,Base de données,Un processus mort empêche l’accès à la base.,logiciel,1
+2025-01-16,Sophie Garnier,Ferme solaire de Nîmes,rails / guidage,Distorsion visible sur la glissière mécanique.,structurelle,1
+2025-03-30,Jordan Muller,Ferme solaire de Toulouse,capteur humidité,Le taux d’humidité ambiant impacte la précision du capteur.,capteur,0
+2024-07-18,Samir Bernard,Station solaire de Perpignan,profilés métalliques,Déformation volumique d’un élément cornière détectée.,structurelle,0
+2024-10-14,Julie Lefèvre,Centrale solaire de Bordeaux,fondations,Détérioration du matériau de fondation observée.,structurelle,1
+2024-08-24,Léa Morel,Station solaire de Perpignan,Configuration système,Le fichier .env contient des variables incorrectes.,logiciel,0
+2024-07-16,Samir Lefèvre,Station photovoltaïque de Strasbourg,Régulation / Contrôleur,Le régulateur interne n’assure plus sa fonction.,électrique,1
+2024-09-02,Julie Lefèvre,Parc éolien d’Amiens,Base de données,Verrouillage de la base de données par thread mort.,logiciel,1
+2025-02-08,Sophie Petit,Station photovoltaïque de Strasbourg,SCADA,Le module SCADA a redémarré sans action prévue.,logiciel,1
+2024-06-01,Antoine Blanc,Station solaire de Perpignan,Ensemble de fixation Rotek,Jeu anormal détecté au niveau des fixations.,mécanique,1
+2024-08-11,Hugo Lefèvre,Station solaire de Perpignan,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2024-09-01,Antoine Renard,Plateforme éolienne de Brest,Analyse/logs,Les journaux atteignent une taille anormalement grande.,logiciel,0
+2025-01-30,Samir Lefèvre,Centrale solaire de Bordeaux,Module de sécurité mécanique Nidec,Blocage intermittent de la commande de position.,mécanique,1
+2024-11-07,Samir Garnier,Site hybride de Montpellier,Pignons d’entraînement Transtecno,Engrenement partiel provoquant des à-coups.,mécanique,1
+2025-01-08,Hugo Petit,Unité solaire d’Avignon,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2025-01-20,Sophie Morel,Station mixte de Marseille,Stabilité / Fréquence,Oscillations rapides détectées sur l’intensité de sortie.,électrique,0
+2025-04-05,Léa Garnier,Station photovoltaïque de Strasbourg,capteur vibration,Signal irrégulier émis de façon aléatoire par le capteur de vibration.,capteur,1
+2024-07-21,Samir Roux,Parc éolien de Lille,Contrôle / Commande,Signal de commande électrique absent.,électrique,1
+2025-03-27,Antoine Petit,Station photovoltaïque de Strasbourg,attaches extérieures,Les attaches extérieures sont fortement oxydées.,structurelle,1
+2025-04-14,Léa Morel,Plateforme éolienne de Brest,Surveillance/monitoring,Collecte de métriques interrompue.,logiciel,0
+2025-02-07,Alex Petit,Parc éolien de Lille,capteur resolution,La précision du capteur ne permet pas de mesurer la grandeur actuelle.,capteur,0
+2024-06-08,Julie Muller,Parc éolien d’Amiens,Ressort de rappel Enerdrive,Le ressort présente une fissure visible.,mécanique,1
+2024-11-07,Hugo Renard,Centrale solaire de Bordeaux,Relais / Commutation,Le relais principal s’est réenclenché sans sollicitation.,électrique,0
+2024-11-18,Léa Lefèvre,Site hybride de Montpellier,corrosion / humidité,Des traces sinueuses de rouille se forment sous la peinture.,structurelle,1
+2025-04-07,Camille Garnier,Plateforme éolienne de Brest,Synchronisation,Défaillance de synchronisation système.,logiciel,1
+2024-10-19,Julie Giraud,Ferme solaire de Nîmes,Support d’orientation axial Nordex,Usure critique des patins de coulissement.,mécanique,0
+2025-04-30,Nina Bernard,Site éolien de Reims,Condensateurs,Surchauffe des condensateurs internes.,électrique,1
+2024-07-29,Alex Lefèvre,Parc éolien d’Amiens,fixations diverses,Cristallisation saline observée autour des boulons.,structurelle,0
+2025-05-03,Nina Roux,Station solaire de Perpignan,Onduleur principal,L’onduleur de backup n’a pas pris le relais.,électrique,1
+2024-12-07,Sophie Giraud,Site éolien de Reims,Firmware,La mise à jour du firmware a causé des instabilités.,logiciel,1
+2025-04-17,Alex Renard,Parc éolien d’Amiens,protocole et transmission,Mauvais paramétrage du protocole numérique utilisé par le capteur.,capteur,1
+2025-01-23,Sophie Giraud,Parc éolien d’Amiens,soudure / joints,Des fissures rayonnent depuis un trou de fixation.,structurelle,1
+2024-05-18,Camille Giraud,Éolienne offshore de Saint-Nazaire,protocole et transmission,Mauvais paramétrage du protocole numérique utilisé par le capteur.,capteur,1
+2025-01-26,Sophie Morel,Station photovoltaïque de Strasbourg,Relais / Commutation,Le relais principal s’est réenclenché sans sollicitation.,électrique,0
+2024-10-29,Léa Muller,Site éolien de Reims,soudure / joints,Le cordon de soudure est fissuré ou partiellement rompu.,structurelle,1
+2024-09-01,Antoine Giraud,Ferme solaire de Nîmes,plaques métalliques,Jointure défectueuse entre plaques métalliques de soutien.,structurelle,1
+2024-09-26,Alex Muller,Centrale solaire de Bordeaux,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2024-07-30,Léa Muller,Site éolien de Reims,filtrage et bruit,Parasites électromagnétiques à 50 Hz détectés sur le signal.,capteur,0
+2025-02-27,Jordan Giraud,Site hybride de Montpellier,Stabilité / Fréquence,Instabilité fréquentielle sur la ligne électrique.,électrique,0
+2024-11-29,Nina Lefèvre,Station solaire de Perpignan,capteur oscillateur,"Horloge du capteur imprécise, induisant des erreurs temporelles.",capteur,0
+2024-05-10,Camille Giraud,Station mixte de Marseille,capteur thermique,Dérive thermique observée à 40°C.,capteur,0
+2025-03-27,Antoine Lefèvre,Station solaire de Perpignan,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2024-11-20,Antoine Blanc,Unité solaire d’Avignon,Éolienne Vestas V90,Bruit harmonique constant entendu lors de l’utilisation normale.,mécanique,1
+2025-02-14,Hugo Morel,Plateforme éolienne de Brest,structures portantes,La structure porteuse est désalignée.,structurelle,1
+2025-03-25,Samir Roux,Unité solaire d’Avignon,Éolienne Siemens Gamesa SG 2.1,Mouvement anormal lors du changement de vitesse.,mécanique,1
+2024-07-08,Hugo Muller,Parc hybride de Grenoble,Ligne AC / Alimentation secteur,Chute de tension lors de pics de consommation.,électrique,0
+2024-05-06,Nina Renard,Plateforme éolienne de Brest,Boîtier de jonction / câblage,Arc électrique observé dans le boîtier de jonction.,électrique,1
+2024-05-30,Hugo Garnier,Ferme solaire de Toulouse,Session/utilisateur,La session en cours est invalide ou altérée.,logiciel,0
+2024-07-16,Julie Morel,Ferme solaire de Toulouse,fixations structurelles,Les éléments de fixation ont trop de liberté de mouvement.,structurelle,1
+2024-05-20,Hugo Roux,Station photovoltaïque de Strasbourg,Éolienne Siemens Gamesa SG 2.1,Balourd dans la partie tournante.,mécanique,1
+2024-09-20,Samir Bernard,Unité solaire d’Avignon,Session/utilisateur,Connexion interrompue à cause d’une session corrompue.,logiciel,0
+2024-12-30,Sophie Muller,Site éolien de Reims,plaques métalliques,La plaque métallique de soutien est fissurée.,structurelle,1
+2025-02-24,Camille Lefèvre,Site hybride de Montpellier,Transformateur,Risque d’arc dû à une mauvaise isolation du transfo.,électrique,1
+2024-08-18,Julie Renard,Unité solaire d’Avignon,capteur température,Données incohérentes reçues du capteur de température.,capteur,1
+2024-08-23,Jordan Morel,Unité solaire d’Avignon,Ligne AC / Alimentation secteur,Interruption inattendue de l’alimentation électrique.,électrique,1
+2024-09-10,Sophie Morel,Ferme solaire de Nîmes,rails / guidage,Déformation permanente du rail de guidage.,structurelle,1
+2024-09-10,Antoine Morel,Station mixte de Marseille,plaques métalliques,Les segments de structure sont mal alignés entre eux.,structurelle,1
+2024-09-26,Jordan Renard,Site éolien de Reims,PWM / Sortie signal,Signal PWM déformé sur la sortie.,électrique,0
+2025-03-20,Antoine Bernard,Parc éolien d’Amiens,Modbus/communication locale,Timeout régulier sur protocole Modbus.,logiciel,0
+2024-12-25,Hugo Bernard,Station mixte de Marseille,Frein de rotor Svendborg,Le roulement ne tourne plus librement à cause de l’oxydation.,mécanique,1
+2024-11-03,Hugo Blanc,Ferme solaire de Toulouse,Transformateur,Basse isolation du transformateur.,électrique,1
+2025-02-11,Samir Muller,Parc éolien d’Amiens,Ensemble de fixation Rotek,Jeu anormal détecté au niveau des fixations.,mécanique,1
+2025-03-12,Jordan Roux,Parc éolien d’Amiens,Base de données,Verrouillage de la base de données par thread mort.,logiciel,1
+2024-05-29,Samir Garnier,Parc éolien de Lille,Traverse de rotation SMC,Soudure craquelée sur la traverse.,mécanique,1
+2024-05-08,Julie Blanc,Parc hybride de Grenoble,Support d’orientation axial Nordex,Patin de glissement usé au-delà de la tolérance.,mécanique,0
+2024-09-13,Julie Muller,Parc éolien de Lille,capteur humidité,Mesures perturbées par l’humidité extérieure non filtrée.,capteur,0
+2024-11-13,Nina Roux,Station photovoltaïque de Strasbourg,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2025-03-18,Hugo Blanc,Site hybride de Montpellier,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2024-12-17,Antoine Renard,Plateforme éolienne de Brest,PWM / Sortie signal,Forme d’onde PWM non conforme sur la sortie onduleur.,électrique,0
+2024-12-07,Julie Renard,Parc éolien de Lille,capteur multifonction,Décalage horaire dans les enregistrements.,capteur,0
+2025-02-18,Julie Giraud,Site éolien de Reims,Surveillance/monitoring,Le module de monitoring s’est arrêté de façon imprévue.,logiciel,0
+2025-03-05,Nina Giraud,Parc hybride de Grenoble,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2024-07-02,Alex Blanc,Centrale solaire de Bordeaux,plaques métalliques,Les segments de structure sont mal alignés entre eux.,structurelle,1
+2025-03-19,Alex Muller,Site éolien de Reims,Réducteur de vitesse Flender,La boîte de transmission émet un son inhabituel.,mécanique,0
+2024-09-13,Antoine Blanc,Ferme solaire de Toulouse,Arbre principal SKF 800mm,Flexion anormale du bras support.,mécanique,0
+2024-11-13,Hugo Garnier,Station solaire de Perpignan,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2024-08-11,Alex Lefèvre,Parc éolien de Lille,plateforme d’ancrage,Écart de niveau sur plateforme d’ancrage.,structurelle,0
+2025-01-29,Hugo Blanc,Unité solaire d’Avignon,capteur thermique,Dérive des valeurs de capteur en cas de surchauffe environnementale.,capteur,0
+2024-10-16,Samir Muller,Éolienne offshore de Saint-Nazaire,Relais / Commutation,Réactivation intempestive du relais principal.,électrique,0
+2025-05-05,Sophie Renard,Site éolien de Reims,pales,Anomalie structurelle observée sur l'une des pales.,structurelle,1
+2024-06-25,Sophie Garnier,Parc éolien de Lille,Contrôle / Commande,Variation anormale de l’amplitude du signal.,électrique,0
+2025-04-06,Jordan Bernard,Plateforme éolienne de Brest,Onduleur principal,Coupure brutale de l’onduleur observée pendant l’exploitation.,électrique,1
+2024-08-19,Alex Garnier,Ferme solaire de Nîmes,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2025-01-16,Léa Muller,Parc éolien d’Amiens,capteur oscillateur,"Horloge du capteur imprécise, induisant des erreurs temporelles.",capteur,0
+2024-11-15,Camille Roux,Ferme solaire de Nîmes,profilés métalliques,Déformation sinusoïdale le long de la barre acier détectée.,structurelle,0
+2025-03-16,Antoine Renard,Ferme solaire de Nîmes,Firmware,La procédure de mise à jour a été interrompue prématurément.,logiciel,1
+2024-09-05,Camille Lefèvre,Parc hybride de Grenoble,Quota et accès,Le nombre d’appels API autorisé a été excédé.,logiciel,0
+2024-12-14,Léa Giraud,Ferme solaire de Nîmes,Frein de rotor Svendborg,Le roulement ne tourne plus librement à cause de l’oxydation.,mécanique,1
+2025-03-11,Samir Renard,Ferme solaire de Toulouse,fondations,Le sol montre des signes d’usure par lessivage.,structurelle,1
+2025-02-11,Sophie Morel,Station mixte de Marseille,Firmware,La procédure de mise à jour a été interrompue prématurément.,logiciel,1
+2025-04-22,Sophie Roux,Plateforme éolienne de Brest,Système d’orientation de nacelle,Comportement mécanique instable en rotation.,mécanique,1
+2024-11-01,Sophie Garnier,Station photovoltaïque de Strasbourg,Disjoncteurs / Protection,Le différentiel a sauté sans défaut apparent.,électrique,0
+2024-06-05,Alex Muller,Parc hybride de Grenoble,comportement sous charge / vent,Fléchissement du poteau sous charge.,structurelle,1
+2024-10-04,Antoine Bernard,Ferme solaire de Nîmes,microcontroleur interne,Bogue dans le microcontrôleur intégré.,capteur,1
+2024-08-20,Antoine Garnier,Ferme solaire de Toulouse,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2024-11-17,Nina Giraud,Unité solaire d’Avignon,capteur vent,Capteur de vent ne transmet plus de valeurs.,capteur,1
+2024-12-24,Nina Renard,Site hybride de Montpellier,Stabilité / Fréquence,Dérive de tension après charge prolongée.,électrique,0
+2024-05-13,Jordan Blanc,Ferme solaire de Toulouse,Onduleur principal,Onduleur de secours non enclenché lors de la panne secteur.,électrique,1
+2024-05-15,Julie Roux,Station mixte de Marseille,protocole et transmission,Problème de synchronisation horaire avec le serveur NTP.,capteur,0
+2025-01-14,Léa Petit,Parc éolien de Lille,Stabilité / Fréquence,Oscillations rapides détectées sur l’intensité de sortie.,électrique,0
+2025-04-16,Camille Muller,Site éolien de Reims,Fusibles,Défaillance du fusible principal détectée.,électrique,1
+2024-08-15,Jordan Garnier,Site hybride de Montpellier,capteur vent,Le capteur anémométrique est muet depuis plusieurs minutes.,capteur,1
+2025-02-05,Samir Lefèvre,Site éolien de Reims,capteur thermique,Les mesures deviennent erronées à haute température.,capteur,0
+2024-10-10,Nina Blanc,Ferme solaire de Toulouse,capteur diaphragme,Intégrité du diaphragme compromise par microfissure mécanique.,capteur,1
+2025-01-11,Samir Bernard,Parc éolien de Lille,dilatation thermique,Comportement expansif non contrôlé lié à la température.,structurelle,1
+2025-02-24,Julie Petit,Site hybride de Montpellier,Sécurité/authentification,Le certificat de sécurité n’a pas été mis à jour à temps.,logiciel,1
+2025-02-25,Jordan Lefèvre,Site hybride de Montpellier,capteur mémoire,Perte de données due à un buffer interne défaillant.,capteur,1
+2024-07-26,Samir Bernard,Parc éolien de Lille,Performance,Le thread principal cesse de répondre en cas de forte sollicitation.,logiciel,1
+2024-10-19,Julie Renard,Station solaire de Perpignan,Base de données,Fichiers SQLite illisibles ou dégradés détectés pendant l’accès.,logiciel,1
+2025-04-18,Hugo Petit,Parc éolien de Lille,Date/heure,Erreur de conversion de date ISO8601.,logiciel,0
+2024-08-08,Camille Roux,Ferme solaire de Nîmes,Palier de moyeu GE Wind Energy,Le palier présente des signes de faiblesse mécanique.,mécanique,1
+2024-12-26,Samir Muller,Station solaire de Perpignan,Onduleur principal,Coupure brutale de l’onduleur observée pendant l’exploitation.,électrique,1
+2024-05-16,Julie Bernard,Ferme solaire de Toulouse,fondations,Le sol s’est surélevé à la base du mât.,structurelle,0
+2024-10-18,Camille Roux,Parc éolien d’Amiens,Quota et accès,Dépassement de quota API.,logiciel,0
+2024-11-12,Alex Giraud,Ferme solaire de Toulouse,fixations structurelles,Jeu mécanique dans les fixations structurelles.,structurelle,1
+2024-09-20,Nina Garnier,Ferme solaire de Nîmes,Parasites / EMI,Parasites audibles détectés dans l’alimentation.,électrique,0
+2024-10-26,Camille Giraud,Station mixte de Marseille,Bornier / Connexions,Point de contact principal mal serré ou oxydé.,électrique,1
+2024-10-26,Alex Renard,Station mixte de Marseille,pales,Anomalie structurelle observée sur l'une des pales.,structurelle,1
+2024-07-05,Alex Petit,Parc éolien de Lille,Régulation / Contrôleur,Instabilité causée par un défaut de régulation active.,électrique,1
+2024-12-22,Camille Garnier,Ferme solaire de Toulouse,Arbre principal SKF 800mm,Le bras support se déforme sous la contrainte.,mécanique,0
+2024-11-05,Hugo Roux,Centrale solaire de Bordeaux,Boîte de transmission Bosch Rexroth,Absence de film lubrifiant entraînant un contact direct.,mécanique,1
+2024-12-03,Hugo Garnier,Parc éolien de Lille,Synchronisation,Perte de synchronisation constatée entre les composants logiciels.,logiciel,1
+2025-04-21,Samir Bernard,Unité solaire d’Avignon,Parasites / EMI,Interférences électromagnétiques perturbant le signal.,électrique,0
+2024-10-31,Camille Giraud,Station photovoltaïque de Strasbourg,Gestion mémoire,Consommation mémoire anormale et croissante dans le service ciblé.,logiciel,1
+2025-01-27,Alex Blanc,Unité solaire d’Avignon,API/communication,Impossible de joindre l’API REST lors de la tentative de communication.,logiciel,1
+2024-08-28,Antoine Muller,Ferme solaire de Toulouse,Système de refroidissement électrique,Dissipateur thermique en panne ou inefficace.,électrique,1
+2024-05-23,Antoine Muller,Site éolien de Reims,Condensateurs,"Composants internes trop chauds, risque de dégradation.",électrique,1
+2025-05-02,Léa Lefèvre,Site hybride de Montpellier,capteur liquide,Les lectures sont faussées par des bulles dans le fluide porteur.,capteur,1
+2025-03-31,Jordan Garnier,Station photovoltaïque de Strasbourg,Charge / Impédance,Résistance de charge anormalement élevée.,électrique,0
+2024-10-31,Nina Blanc,Éolienne offshore de Saint-Nazaire,capteur température,Données incohérentes reçues du capteur de température.,capteur,1
+2024-07-28,Julie Garnier,Unité solaire d’Avignon,capteur courant,Lecture figée à cause d’un courant supérieur à la plage mesurable.,capteur,1
+2025-01-29,Samir Muller,Unité solaire d’Avignon,comportement sous charge / vent,Courbure excessive du pilier central détectée.,structurelle,1
+2024-09-13,Sophie Roux,Unité solaire d’Avignon,Session/utilisateur,Corruption de la session utilisateur.,logiciel,0
+2025-01-12,Jordan Lefèvre,Ferme solaire de Nîmes,fixations structurelles,Mobilité excessive détectée dans les points d’ancrage.,structurelle,1
+2024-06-16,Antoine Petit,Site hybride de Montpellier,fixations diverses,Cristallisation saline observée autour des boulons.,structurelle,0
+2024-12-29,Samir Muller,Site éolien de Reims,fixations diverses,Encroûtement de sel sur les fixations.,structurelle,0
+2024-08-24,Hugo Garnier,Site éolien de Reims,Modbus/communication locale,Des timeouts récurrents sont détectés sur la liaison Modbus.,logiciel,0
+2024-09-16,Sophie Giraud,Éolienne offshore de Saint-Nazaire,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2025-04-13,Julie Lefèvre,Unité solaire d’Avignon,Pignons d’entraînement Transtecno,Glissement temporaire constaté dans l’engrenage.,mécanique,1
+2024-06-25,Jordan Giraud,Station photovoltaïque de Strasbourg,Éolienne Siemens Gamesa SG 2.1,Oscillation de fréquence variable constatée.,mécanique,0
+2024-07-19,Antoine Renard,Ferme solaire de Nîmes,Support d’orientation axial Nordex,Usure critique des patins de coulissement.,mécanique,0
+2025-04-19,Julie Morel,Éolienne offshore de Saint-Nazaire,boîtier capteur,Présence d’eau détectée à l’intérieur du capteur.,capteur,1
+2024-10-01,Léa Petit,Centrale solaire de Bordeaux,capteur humidité,Mesures perturbées par l’humidité extérieure non filtrée.,capteur,0
+2025-02-15,Hugo Giraud,Plateforme éolienne de Brest,Ligne AC / Alimentation secteur,Coupure de courant survenue sans préavis.,électrique,1
+2025-04-10,Sophie Lefèvre,Unité solaire d’Avignon,corrosion / humidité,Des traces sinueuses de rouille se forment sous la peinture.,structurelle,1
+2025-04-12,Jordan Roux,Site hybride de Montpellier,Bornier / Connexions,Mauvais contact sur le bornier principal.,électrique,1
+2025-02-18,Antoine Morel,Site hybride de Montpellier,Stabilité / Fréquence,Variation progressive de la tension en fin de charge.,électrique,0
+2024-12-02,Hugo Renard,Site éolien de Reims,Rendement / Température,Performances réduites dues à une température excessive.,électrique,1
+2024-05-28,Léa Lefèvre,Parc éolien d’Amiens,Système d’orientation de nacelle,Comportement mécanique instable en rotation.,mécanique,1
+2025-04-09,Léa Roux,Station photovoltaïque de Strasbourg,pales,Une pale présente une courbure anormale.,structurelle,1
+2024-11-28,Antoine Petit,Centrale solaire de Bordeaux,fixations structurelles,Gond desserré sur la charpente.,structurelle,1
+2025-02-10,Léa Renard,Station solaire de Perpignan,PWM / Sortie signal,Forme d’onde PWM non conforme sur la sortie onduleur.,électrique,0
+2025-02-02,Samir Giraud,Ferme solaire de Toulouse,traverse principale,Indentation dans la traverse principale.,structurelle,0
+2025-03-21,Samir Roux,Station photovoltaïque de Strasbourg,capteur mémoire,Défaut de la mémoire tampon interne.,capteur,1
+2024-07-17,Samir Renard,Site hybride de Montpellier,capteur remise sous tension,Aucun signal après extinction et remise sous tension du capteur.,capteur,1
+2024-12-25,Julie Morel,Site hybride de Montpellier,Bornier / Connexions,Connexion instable détectée sur le bornier.,électrique,1
+2024-10-30,Léa Renard,Centrale solaire de Bordeaux,microcontroleur interne,Bogue dans le microcontrôleur intégré.,capteur,1
+2025-03-03,Léa Muller,Centrale solaire de Bordeaux,rails / guidage,Distorsion visible sur la glissière mécanique.,structurelle,1
+2024-09-30,Léa Blanc,Station solaire de Perpignan,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2025-02-07,Camille Roux,Site hybride de Montpellier,capteur monté,Le capteur est mal fixé ou orienté de manière incorrecte.,capteur,1
+2024-08-29,Sophie Bernard,Parc éolien de Lille,Session/utilisateur,Connexion interrompue à cause d’une session corrompue.,logiciel,0
+2024-11-01,Nina Muller,Éolienne offshore de Saint-Nazaire,Stabilité / Fréquence,Le courant de sortie varie de façon instable.,électrique,0
+2024-06-01,Hugo Morel,Parc éolien d’Amiens,Parasites / EMI,Perturbations EMI détectées sur la ligne d’alimentation.,électrique,0
+2025-01-18,Hugo Petit,Site éolien de Reims,profilés métalliques,Des vagues sont visibles sur le métal formé.,structurelle,0
+2025-03-03,Nina Bernard,Site éolien de Reims,Système de refroidissement électrique,Dissipateur thermique en panne ou inefficace.,électrique,1
+2024-09-08,Nina Muller,Unité solaire d’Avignon,plateforme d’ancrage,Déséquilibre topographique détecté sur la zone d’ancrage.,structurelle,0
+2024-09-18,Jordan Morel,Station photovoltaïque de Strasbourg,Régulation / Contrôleur,Défaillance dans la gestion de la puissance active détectée.,électrique,1
+2024-08-13,Samir Blanc,Ferme solaire de Nîmes,capteur pressions,Oscillation rapide du signal de pression.,capteur,1
+2024-06-29,Camille Lefèvre,Parc hybride de Grenoble,Stabilité / Fréquence,Oscillations rapides détectées sur l’intensité de sortie.,électrique,0
+2025-03-17,Samir Giraud,Unité solaire d’Avignon,Module principal de rotation,Inclinaison instable du module supérieur détectée.,mécanique,1
+2025-03-19,Nina Muller,Site hybride de Montpellier,capteur diaphragme,Fissuration visible sur la membrane de détection.,capteur,1
+2024-08-14,Nina Roux,Centrale solaire de Bordeaux,attaches extérieures,Les attaches extérieures sont fortement oxydées.,structurelle,1
+2024-07-13,Hugo Muller,Plateforme éolienne de Brest,microcontroleur interne,Le microcontrôleur embarqué présente un dysfonctionnement logiciel.,capteur,1
+2024-11-24,Léa Garnier,Parc éolien d’Amiens,filtrage et bruit,Le filtre numérique masque les variations réelles de signal.,capteur,0
+2024-08-01,Samir Morel,Parc hybride de Grenoble,Ensemble de fixation Rotek,Les vis de fixation ne tiennent pas correctement.,mécanique,1
+2024-12-06,Samir Bernard,Site hybride de Montpellier,Système hydraulique de freinage Parker,Le système absorbe mal les vibrations.,mécanique,0
+2024-06-11,Camille Muller,Station solaire de Perpignan,capteur transitoire,Le capteur fournit des pics incohérents en phase transitoire.,capteur,1
+2025-01-12,Samir Lefèvre,Parc éolien d’Amiens,Palier de moyeu GE Wind Energy,Surface interne du palier non lisse.,mécanique,0
+2024-10-26,Samir Bernard,Parc éolien de Lille,capteur mémoire,La mémoire cache du capteur ne fonctionne plus correctement.,capteur,1
+2024-12-28,Camille Morel,Site hybride de Montpellier,Frein de rotor Svendborg,Blocage par grippage dû à la rouille.,mécanique,1
+2024-11-22,Julie Petit,Site éolien de Reims,Sécurité/authentification,Certificat SSL expiré non renouvelé.,logiciel,1
+2025-03-27,Alex Renard,Site éolien de Reims,capteur mémoire,Perte de données due à un buffer interne défaillant.,capteur,1
+2024-08-08,Léa Renard,Site hybride de Montpellier,Bornier / Connexions,Mauvais contact sur le bornier principal.,électrique,1
+2024-08-15,Hugo Morel,Centrale solaire de Bordeaux,Endpoints/API,Clé absente ou mal nommée dans les données JSON reçues.,logiciel,0
+2024-09-27,Nina Muller,Plateforme éolienne de Brest,capteur courant,Saturation du capteur de courant.,capteur,1
+2025-04-02,Nina Morel,Station mixte de Marseille,peinture / revêtement,Décollement du film protecteur.,structurelle,0
+2025-03-12,Jordan Muller,Station photovoltaïque de Strasbourg,capteur electronique,Code d’erreur 0x1A reçu.,capteur,1
+2024-12-21,Julie Garnier,Station photovoltaïque de Strasbourg,mât principal,Fente marquée détectée au pied du mât principal.,structurelle,1
+2025-05-02,Camille Muller,Centrale solaire de Bordeaux,Guide de palier H-Tech,Coulissement brusque du guide de palier.,mécanique,0
+2024-08-05,Alex Morel,Parc éolien de Lille,pales,Déformation constatée sur une pale.,structurelle,1
+2025-03-14,Nina Lefèvre,Station solaire de Perpignan,Gestion mémoire,Fuite de mémoire observée dans le module X.,logiciel,1
+2025-04-17,Léa Garnier,Ferme solaire de Nîmes,Relais / Commutation,Réactivation intempestive du relais principal.,électrique,0
+2024-12-05,Sophie Blanc,Parc éolien de Lille,Éolienne Vestas V90,Bruit harmonique constant entendu lors de l’utilisation normale.,mécanique,1
+2024-08-30,Antoine Giraud,Parc hybride de Grenoble,Enveloppe externe nacelle,Impact anormal enregistré en conditions venteuses.,mécanique,1
+2024-10-24,Samir Lefèvre,Centrale solaire de Bordeaux,Transactions et rollback,Rollback automatique après échec de transaction.,logiciel,0
+2025-01-01,Jordan Roux,Station mixte de Marseille,Onduleur principal,Cycle de reboot infini observé sur l’onduleur.,électrique,1
+2025-03-05,Léa Renard,Unité solaire d’Avignon,PWM / Sortie signal,Modulation d’impulsions erratique mesurée.,électrique,0
+2025-02-20,Samir Blanc,Ferme solaire de Toulouse,Ligne AC / Alimentation secteur,Chute de tension lors de pics de consommation.,électrique,0
+2024-08-04,Léa Garnier,Site éolien de Reims,capteur courant,Saturation du capteur de courant.,capteur,1
+2025-05-02,Nina Bernard,Ferme solaire de Nîmes,Compatibilité logicielle,Incompatibilité entre bibliothèques Python présentes dans l’environnement.,logiciel,0
+2024-09-04,Sophie Giraud,Éolienne offshore de Saint-Nazaire,capteur resolution,Limite de résolution dépassée.,capteur,0
+2024-06-05,Antoine Petit,Station mixte de Marseille,boîtier capteur,Fuite d’humidité dans le boîtier du capteur.,capteur,1
+2025-02-17,Léa Lefèvre,Ferme solaire de Toulouse,capteur multifonction,Fluctuations inhabituelles du signal détectées durant une longue période.,capteur,1
+2025-03-18,Jordan Garnier,Station photovoltaïque de Strasbourg,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2024-10-29,Alex Petit,Parc hybride de Grenoble,fondations,Le sol s’est surélevé à la base du mât.,structurelle,0
+2025-04-24,Camille Petit,Éolienne offshore de Saint-Nazaire,Onduleur principal,L’onduleur s’est déconnecté sans avertissement.,électrique,1
+2025-03-16,Nina Bernard,Station solaire de Perpignan,Quota et accès,Dépassement de quota API.,logiciel,0
+2025-02-20,Léa Garnier,Plateforme éolienne de Brest,Enveloppe externe nacelle,Impact anormal enregistré en conditions venteuses.,mécanique,1
+2024-06-05,Léa Giraud,Parc éolien de Lille,Support d’orientation axial Nordex,La chaîne présente un jeu longitudinal inhabituel.,mécanique,1
+2024-09-09,Alex Muller,Éolienne offshore de Saint-Nazaire,Module principal de rotation,L’ensemble mécanique penche de manière inquiétante.,mécanique,1
+2025-01-29,Jordan Renard,Éolienne offshore de Saint-Nazaire,Gestion mémoire,Memory leak identifié dans le service X.,logiciel,1
+2024-06-13,Léa Blanc,Station solaire de Perpignan,Éolienne Vestas V90,Bruit harmonique constant entendu lors de l’utilisation normale.,mécanique,1
+2024-05-25,Hugo Garnier,Centrale solaire de Bordeaux,Date/heure,Erreur de conversion de date ISO8601.,logiciel,0
+2024-11-05,Samir Blanc,Station solaire de Perpignan,corrosion / humidité,Corrosion sous contrainte hydrique.,structurelle,1
+2024-05-13,Julie Roux,Ferme solaire de Toulouse,Pignons d’entraînement Transtecno,Décrochage occasionnel des dents d’engrenage.,mécanique,1
+2025-04-22,Léa Petit,Site hybride de Montpellier,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2025-03-01,Camille Bernard,Parc éolien d’Amiens,peinture / revêtement,Revêtement de surface partiellement arraché.,structurelle,0
+2024-11-08,Antoine Renard,Centrale solaire de Bordeaux,Parasites / EMI,Perturbations EMI détectées sur la ligne d’alimentation.,électrique,0
+2024-07-13,Julie Giraud,Parc éolien de Lille,Module de sécurité mécanique Nidec,Détection d’activation non sollicitée.,mécanique,1
+2024-09-22,Antoine Giraud,Station photovoltaïque de Strasbourg,fixations diverses,Présence de dépôts blancs sur les ancrages métalliques.,structurelle,0
+2024-09-27,Julie Roux,Unité solaire d’Avignon,Système de refroidissement électrique,Dissipateur thermique en panne ou inefficace.,électrique,1
+2024-08-12,Sophie Garnier,Plateforme éolienne de Brest,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2025-02-28,Sophie Renard,Station mixte de Marseille,corrosion / humidité,Oxydation accélérée en présence d’humidité constante.,structurelle,1
+2024-10-05,Antoine Giraud,Parc éolien de Lille,plateforme d’ancrage,Écart de niveau sur plateforme d’ancrage.,structurelle,0
+2024-11-06,Hugo Blanc,Ferme solaire de Toulouse,microcontroleur interne,Bogue dans le microcontrôleur intégré.,capteur,1
+2025-04-04,Jordan Morel,Unité solaire d’Avignon,plaques métalliques,Jointure défectueuse entre plaques métalliques de soutien.,structurelle,1
+2024-09-08,Camille Muller,Station solaire de Perpignan,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2025-04-02,Jordan Giraud,Site éolien de Reims,SCADA,Redémarrage inopiné du module SCADA.,logiciel,1
+2024-05-20,Samir Lefèvre,Parc hybride de Grenoble,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2024-05-17,Julie Garnier,Site hybride de Montpellier,Date/heure,Échec de parsing de date à cause d’un format invalide.,logiciel,0
+2025-01-07,Alex Morel,Station photovoltaïque de Strasbourg,Arbre principal SKF 800mm,Flexion anormale du bras support.,mécanique,0
+2024-09-15,Sophie Roux,Station photovoltaïque de Strasbourg,API/communication,Échec de la requête API REST.,logiciel,1
+2024-08-07,Jordan Morel,Site éolien de Reims,Traverse de rotation SMC,Des microfissures apparaissent le long de la soudure.,mécanique,1
+2025-01-16,Nina Morel,Station solaire de Perpignan,protocole et transmission,La communication série entre capteur et carte est erronée.,capteur,1
+2024-09-20,Camille Renard,Unité solaire d’Avignon,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2025-04-12,Nina Roux,Station solaire de Perpignan,capteur diaphragme,Fissuration visible sur la membrane de détection.,capteur,1
+2025-03-26,Hugo Giraud,Centrale solaire de Bordeaux,Relais / Commutation,Le relais principal s’est réenclenché sans sollicitation.,électrique,0
+2024-11-18,Léa Muller,Parc éolien d’Amiens,attaches extérieures,Les attaches extérieures sont fortement oxydées.,structurelle,1
+2024-09-21,Alex Garnier,Station solaire de Perpignan,Guindeau industriel Leroy-Somer,Désolidarisation partielle du guindeau.,mécanique,1
+2024-12-20,Sophie Roux,Site éolien de Reims,limites mécaniques,Multiples microfissures réparties sur la couche externe.,structurelle,1
+2025-02-28,Hugo Muller,Unité solaire d’Avignon,Relais / Commutation,Réactivation intempestive du relais principal.,électrique,0
+2025-02-28,Jordan Renard,Ferme solaire de Toulouse,Éolienne Vestas V90,Blocage partiel de l’hélice supérieur.,mécanique,1
+2025-05-05,Jordan Muller,Parc éolien d’Amiens,Support d’orientation axial Nordex,La chaîne présente un jeu longitudinal inhabituel.,mécanique,1
+2024-12-26,Alex Garnier,Ferme solaire de Nîmes,Session/utilisateur,Corruption de la session utilisateur.,logiciel,0
+2025-01-05,Antoine Petit,Éolienne offshore de Saint-Nazaire,Transactions et rollback,La transaction a échoué et a été annulée automatiquement.,logiciel,0
+2024-10-28,Alex Blanc,Plateforme éolienne de Brest,plateforme d’ancrage,La plateforme n’est plus parfaitement de niveau.,structurelle,0
+2025-03-03,Samir Roux,Centrale solaire de Bordeaux,Guide de palier H-Tech,Coulissement brusque du guide de palier.,mécanique,0
+2025-04-04,Camille Morel,Parc éolien de Lille,Ressort de rappel Enerdrive,Tension de rappel insuffisante due à rupture interne.,mécanique,1
+2025-04-23,Nina Renard,Parc éolien d’Amiens,corrosion / humidité,Début de corrosion généralisée sur les éléments porteurs.,structurelle,0
+2024-11-01,Nina Roux,Station solaire de Perpignan,limites mécaniques,Comportement non linéaire observé sous sollicitation forte.,structurelle,1
+2024-08-26,Antoine Blanc,Parc hybride de Grenoble,capteur diaphragme,Intégrité du diaphragme compromise par microfissure mécanique.,capteur,1
+2025-02-06,Jordan Giraud,Site éolien de Reims,Ligne AC / Alimentation secteur,Perte de synchronisation réseau.,électrique,1
+2024-10-08,Antoine Roux,Ferme solaire de Toulouse,Surveillance/monitoring,Collecte de métriques interrompue.,logiciel,0
+2025-01-08,Nina Lefèvre,Ferme solaire de Toulouse,fixations structurelles,Le gond de fixation est instable.,structurelle,1
+2024-07-23,Antoine Petit,Parc éolien de Lille,Régulation / Contrôleur,Défaillance du module de régulation.,électrique,1
+2025-04-21,Julie Lefèvre,Ferme solaire de Toulouse,soudure / joints,Craquelure en étoile autour du trou de boulon.,structurelle,1
+2024-06-03,Antoine Petit,Station mixte de Marseille,Traverse de rotation SMC,Fragilité de l’assemblage soudé sur un élément transversal.,mécanique,1
+2024-06-26,Antoine Blanc,Station solaire de Perpignan,Module principal de rotation,L’ensemble mécanique penche de manière inquiétante.,mécanique,1
+2024-10-21,Samir Roux,Plateforme éolienne de Brest,capteur mémoire,Perte de données due à un buffer interne défaillant.,capteur,1
+2024-08-20,Nina Lefèvre,Ferme solaire de Nîmes,pales,Déformation constatée sur une pale.,structurelle,1
+2024-06-02,Léa Muller,Centrale solaire de Bordeaux,Guindeau industriel Leroy-Somer,Désolidarisation partielle du guindeau.,mécanique,1
+2024-08-25,Samir Lefèvre,Éolienne offshore de Saint-Nazaire,capteur pressions,Le capteur de pression présente des variations instables.,capteur,1
+2025-02-09,Julie Muller,Plateforme éolienne de Brest,plateforme d’ancrage,Écart de niveau sur plateforme d’ancrage.,structurelle,0
+2024-10-06,Léa Lefèvre,Ferme solaire de Toulouse,profilés métalliques,Déformation sinusoïdale le long de la barre acier détectée.,structurelle,0
+2025-04-13,Hugo Morel,Parc éolien de Lille,Fusibles,Le fusible de protection a sauté.,électrique,1
+2025-03-21,Nina Morel,Parc éolien de Lille,capteur humidité,Humidité externe altérant la mesure.,capteur,0
+2025-03-04,Sophie Blanc,Station photovoltaïque de Strasbourg,Système d’orientation de nacelle,Mouvement de torsion non uniforme détecté.,mécanique,1
+2024-11-20,Nina Blanc,Éolienne offshore de Saint-Nazaire,Palier de moyeu GE Wind Energy,Dégradation structurelle détectée sur le palier.,mécanique,1
+2024-12-09,Alex Blanc,Plateforme éolienne de Brest,Disjoncteurs / Protection,Surintensité déclenchée par le disjoncteur.,électrique,1
+2025-03-11,Alex Bernard,Ferme solaire de Nîmes,profilés métalliques,Déformation sinusoïdale le long de la barre acier détectée.,structurelle,0
+2025-03-17,Samir Giraud,Parc éolien de Lille,capteur thermique,Dérive thermique observée à 40°C.,capteur,0
+2024-11-25,Samir Muller,Site hybride de Montpellier,capteur transitoire,Le capteur fournit des pics incohérents en phase transitoire.,capteur,1
+2024-07-13,Sophie Garnier,Parc éolien d’Amiens,Boîte de transmission Bosch Rexroth,Surchauffe des roulements signalée.,mécanique,1
+2024-09-06,Sophie Bernard,Ferme solaire de Nîmes,capteur transitoire,Valeur aberrante lors de variations rapides.,capteur,1
+2024-11-04,Alex Blanc,Plateforme éolienne de Brest,Phases et Réseau triphasé,Déséquilibre de phase détecté.,électrique,1
+2024-09-07,Hugo Roux,Station photovoltaïque de Strasbourg,Frein de rotor Svendborg,Le frein reste partiellement enclenché.,mécanique,1
+2024-08-17,Camille Garnier,Centrale solaire de Bordeaux,Disjoncteurs / Protection,Déclenchement de sécurité suite à surintensité.,électrique,1
+2024-08-08,Camille Petit,Éolienne offshore de Saint-Nazaire,profilés métalliques,Ondulation du profilé d'acier.,structurelle,0
+2025-01-05,Hugo Morel,Parc éolien d’Amiens,Condensateurs,"Composants internes trop chauds, risque de dégradation.",électrique,1
+2024-07-15,Jordan Muller,Station photovoltaïque de Strasbourg,Enveloppe externe nacelle,Impact anormal enregistré en conditions venteuses.,mécanique,1
+2025-03-15,Camille Giraud,Parc éolien de Lille,capteur remise sous tension,Blocage du capteur après mise hors tension.,capteur,1
+2025-02-09,Nina Blanc,Station photovoltaïque de Strasbourg,capteur température,Données incohérentes reçues du capteur de température.,capteur,1
+2024-06-09,Antoine Muller,Station mixte de Marseille,corrosion / humidité,Début de corrosion généralisée sur les éléments porteurs.,structurelle,0
+2025-01-26,Antoine Garnier,Plateforme éolienne de Brest,capteur vibration,Signal irrégulier émis de façon aléatoire par le capteur de vibration.,capteur,1
+2025-03-19,Nina Morel,Site éolien de Reims,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2024-09-28,Camille Bernard,Plateforme éolienne de Brest,capteur remise sous tension,Aucun signal après extinction et remise sous tension du capteur.,capteur,1
+2024-12-08,Alex Renard,Parc éolien d’Amiens,capteur courant,Saturation du capteur de courant.,capteur,1
+2024-06-29,Julie Giraud,Site hybride de Montpellier,capteur electronique,Gate leak provoquant dérive de tension.,capteur,1
+2024-11-05,Samir Roux,Éolienne offshore de Saint-Nazaire,Arbre principal SKF 800mm,Traces de frottement marquées sur l’axe.,mécanique,1
+2024-09-17,Hugo Muller,Site éolien de Reims,Tension crête,Tension de crête hors plage autorisée.,électrique,1
+2025-01-31,Jordan Garnier,Parc hybride de Grenoble,peinture / revêtement,Perte d’adhérence partielle du traitement de surface.,structurelle,0
+2024-07-28,Julie Blanc,Site hybride de Montpellier,Système hydraulique de freinage Parker,Défaut de l’amortisseur détecté à l’inspection.,mécanique,0
+2025-02-10,Léa Muller,Éolienne offshore de Saint-Nazaire,Fusibles,Le fusible de protection a sauté.,électrique,1
+2024-07-01,Antoine Roux,Station solaire de Perpignan,limites mécaniques,Comportement non linéaire observé sous sollicitation forte.,structurelle,1
+2024-05-16,Léa Muller,Parc hybride de Grenoble,Phases et Réseau triphasé,Le couplage triphasé est hors tolérance.,électrique,1
+2025-01-09,Jordan Morel,Centrale solaire de Bordeaux,Module de sécurité mécanique Nidec,Blocage intermittent de la commande de position.,mécanique,1
+2024-05-11,Alex Garnier,Station mixte de Marseille,Traverse de rotation SMC,Fragilité de l’assemblage soudé sur un élément transversal.,mécanique,1
+2025-03-27,Nina Morel,Éolienne offshore de Saint-Nazaire,PWM / Sortie signal,Signal PWM déformé sur la sortie.,électrique,0
+2025-03-19,Hugo Roux,Plateforme éolienne de Brest,peinture / revêtement,Décollement visible du revêtement de protection.,structurelle,0
+2025-04-07,Sophie Bernard,Parc éolien de Lille,Configuration système,Champ essentiel absent dans le fichier YAML chargé.,logiciel,0
+2025-03-06,Hugo Blanc,Ferme solaire de Toulouse,Éolienne Vestas V90,Rotation saccadée détectée en phase de démarrage.,mécanique,0
+2024-06-26,Hugo Giraud,Station solaire de Perpignan,Transformateur,Problème d’isolation détecté au niveau du transformateur.,électrique,1
+2024-06-07,Julie Petit,Éolienne offshore de Saint-Nazaire,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2024-05-31,Samir Lefèvre,Ferme solaire de Nîmes,Compatibilité logicielle,Clash de version des dépendances pip.,logiciel,0
+2024-07-31,Antoine Morel,Plateforme éolienne de Brest,Analyse/logs,Logs non archivés entraînant un dépassement d’espace disque.,logiciel,0
+2024-07-15,Samir Bernard,Site hybride de Montpellier,Transactions et rollback,La transaction a échoué et a été annulée automatiquement.,logiciel,0
+2025-02-05,Nina Muller,Parc hybride de Grenoble,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2025-04-29,Nina Garnier,Parc éolien de Lille,Ensemble de fixation Rotek,Écrou de serrage tournant librement.,mécanique,0
+2024-07-28,Jordan Lefèvre,Station mixte de Marseille,rails / guidage,Déformation permanente du rail de guidage.,structurelle,1
+2025-03-15,Jordan Lefèvre,Unité solaire d’Avignon,Session/utilisateur,La session en cours est invalide ou altérée.,logiciel,0
+2024-05-07,Camille Garnier,Unité solaire d’Avignon,Boîte de transmission Bosch Rexroth,Les engrenages montrent des signes d’usure anticipée.,mécanique,1
+2025-05-05,Camille Garnier,Site éolien de Reims,Quota et accès,Le nombre d’appels API autorisé a été excédé.,logiciel,0
+2025-03-26,Nina Garnier,Ferme solaire de Toulouse,Ressort de rappel Enerdrive,Le ressort présente une fissure visible.,mécanique,1
+2024-07-14,Julie Roux,Site éolien de Reims,Ensemble de fixation Rotek,Les vis de fixation ne tiennent pas correctement.,mécanique,1
+2024-07-26,Antoine Garnier,Ferme solaire de Toulouse,plaques métalliques,Plaque de renfort fendue.,structurelle,1
+2024-09-20,Sophie Renard,Éolienne offshore de Saint-Nazaire,capteur uv,La plage de mesure UV est dépassée par excès d’ensoleillement.,capteur,0
+2024-10-14,Sophie Morel,Station photovoltaïque de Strasbourg,Éolienne Vestas V90,Résonance audible sous charge nominale.,mécanique,1
+2024-08-24,Léa Bernard,Éolienne offshore de Saint-Nazaire,microcontroleur interne,Le microcontrôleur embarqué présente un dysfonctionnement logiciel.,capteur,1
+2025-03-24,Sophie Lefèvre,Ferme solaire de Nîmes,Analyse/logs,Logs corrompus lors de l’analyse des données.,logiciel,0
+2024-11-18,Léa Giraud,Station photovoltaïque de Strasbourg,pales,Une pale présente une courbure anormale.,structurelle,1
+2024-09-21,Léa Blanc,Site hybride de Montpellier,Ensemble de fixation Rotek,Serrage défaillant des vis de fixation.,mécanique,1
+2024-09-15,Julie Lefèvre,Parc éolien d’Amiens,capteur thermique,Dérive des valeurs de capteur en cas de surchauffe environnementale.,capteur,0
+2024-11-19,Camille Bernard,Parc éolien de Lille,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2025-01-17,Camille Bernard,Station photovoltaïque de Strasbourg,SCADA,Blocage du scheduler logiciel en boucle infinie.,logiciel,1
+2024-11-24,Antoine Giraud,Station solaire de Perpignan,Transformateur,Basse isolation du transformateur.,électrique,1
+2025-03-14,Jordan Giraud,Parc éolien de Lille,Rendement / Température,Performances réduites dues à une température excessive.,électrique,1
+2024-09-26,Samir Garnier,Ferme solaire de Toulouse,Support d’orientation axial Nordex,Usure critique des patins de coulissement.,mécanique,0
+2025-04-08,Antoine Lefèvre,Unité solaire d’Avignon,Régulation / Contrôleur,Le régulateur interne n’assure plus sa fonction.,électrique,1
+2024-06-01,Léa Muller,Parc hybride de Grenoble,Arbre principal SKF 800mm,Une déviation inhabituelle du bras est visible.,mécanique,0
+2024-11-02,Sophie Garnier,Site hybride de Montpellier,Base de données,Valeurs contradictoires détectées dans plusieurs tables SQL.,logiciel,1
+2025-04-27,Alex Giraud,Éolienne offshore de Saint-Nazaire,Configuration système,Le fichier de configuration est incomplet.,logiciel,0
+2024-10-18,Alex Muller,Site hybride de Montpellier,capteur resolution,La précision du capteur ne permet pas de mesurer la grandeur actuelle.,capteur,0
+2024-05-23,Hugo Morel,Centrale solaire de Bordeaux,Ressort de rappel Enerdrive,Le ressort présente une fissure visible.,mécanique,1
+2024-11-18,Samir Renard,Parc éolien de Lille,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2025-04-23,Samir Blanc,Unité solaire d’Avignon,Bornier / Connexions,Connexion instable détectée sur le bornier.,électrique,1
+2025-02-07,Camille Giraud,Ferme solaire de Nîmes,Système hydraulique de freinage Parker,Défaut de l’amortisseur détecté à l’inspection.,mécanique,0
+2024-05-22,Samir Garnier,Parc éolien d’Amiens,capteur remise sous tension,Blocage du capteur après mise hors tension.,capteur,1
+2025-04-03,Sophie Bernard,Site éolien de Reims,Enveloppe externe nacelle,Vibration violente pendant les rafales.,mécanique,1
+2024-05-18,Alex Lefèvre,Station solaire de Perpignan,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2025-05-04,Julie Petit,Ferme solaire de Nîmes,capteur thermique,Dérive thermique observée à 40°C.,capteur,0
+2024-06-01,Julie Muller,Parc éolien de Lille,PWM / Sortie signal,Modulation d’impulsions erratique mesurée.,électrique,0
+2025-02-05,Samir Garnier,Ferme solaire de Toulouse,capteur vibration,Défaillance intermittente du capteur de vibration.,capteur,1
+2025-03-01,Camille Giraud,Site éolien de Reims,capteur resolution,Limite de résolution dépassée.,capteur,0
+2024-05-14,Jordan Garnier,Station mixte de Marseille,dilatation thermique,Dilatation thermique non compensée.,structurelle,1
+2024-12-24,Jordan Blanc,Site hybride de Montpellier,Condensateurs,Surchauffe des condensateurs internes.,électrique,1
+2025-02-12,Nina Muller,Station mixte de Marseille,Ensemble de fixation Rotek,L’écrou ne verrouille plus la fixation.,mécanique,0
+2025-05-04,Antoine Petit,Éolienne offshore de Saint-Nazaire,Ensemble de fixation Rotek,Les vis de fixation ne tiennent pas correctement.,mécanique,1
+2025-02-23,Nina Muller,Station mixte de Marseille,Erreurs d'exécution,Parsing JSON interrompu par erreur inattendue non capturée.,logiciel,0
+2024-09-05,Sophie Petit,Station photovoltaïque de Strasbourg,Système d’orientation de nacelle,Comportement mécanique instable en rotation.,mécanique,1
+2024-06-29,Alex Lefèvre,Parc hybride de Grenoble,Analyse/logs,Corruption détectée dans les fichiers log pendant l’exploitation.,logiciel,0
+2024-08-29,Antoine Lefèvre,Station solaire de Perpignan,mât principal,Le mât présente des coupes asymétriques.,structurelle,1
+2024-11-06,Sophie Morel,Site hybride de Montpellier,Boîte de transmission Bosch Rexroth,Contact métal-métal observé entre pignons.,mécanique,1
+2025-03-08,Samir Garnier,Éolienne offshore de Saint-Nazaire,Ressort de rappel Enerdrive,Le ressort présente une fissure visible.,mécanique,1
+2025-04-18,Antoine Giraud,Site éolien de Reims,Transformateur,Basse isolation du transformateur.,électrique,1
+2024-08-16,Julie Giraud,Plateforme éolienne de Brest,filtrage et bruit,Bruit de fond excessif dans la mesure.,capteur,0
+2025-02-28,Hugo Renard,Centrale solaire de Bordeaux,capteur vent,Le capteur anémométrique est muet depuis plusieurs minutes.,capteur,1
+2024-06-01,Samir Bernard,Éolienne offshore de Saint-Nazaire,capteur thermique,Les mesures deviennent erronées à haute température.,capteur,0
+2024-08-14,Sophie Lefèvre,Ferme solaire de Nîmes,Régulation / Contrôleur,Instabilité causée par un défaut de régulation active.,électrique,1
+2025-05-02,Jordan Blanc,Parc éolien d’Amiens,MQTT,Boucle de reconnection infinie au broker MQTT.,logiciel,1
+2024-08-28,Jordan Lefèvre,Centrale solaire de Bordeaux,Surveillance/monitoring,Le module de monitoring s’est arrêté de façon imprévue.,logiciel,0
+2024-07-29,Antoine Garnier,Ferme solaire de Toulouse,attaches extérieures,Présence de rouille importante sur les fixations externes.,structurelle,1
+2024-07-02,Alex Morel,Parc éolien d’Amiens,Boîte de transmission Bosch Rexroth,Température excessive dans la chambre de roulement.,mécanique,1
+2025-03-19,Alex Lefèvre,Éolienne offshore de Saint-Nazaire,peinture / revêtement,Perte d’adhérence partielle du traitement de surface.,structurelle,0
+2024-08-18,Hugo Roux,Éolienne offshore de Saint-Nazaire,Phases et Réseau triphasé,Ordre de phase incorrect signalé par le système.,électrique,1
+2024-12-09,Nina Giraud,Éolienne offshore de Saint-Nazaire,capteur electronique,Une fuite dans la grille provoque une déviation du signal.,capteur,1
+2024-08-04,Samir Lefèvre,Ferme solaire de Toulouse,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2025-05-04,Sophie Bernard,Éolienne offshore de Saint-Nazaire,Système d’orientation de nacelle,Désalignement des axes provoquant frottement.,mécanique,1
+2024-09-28,Alex Muller,Parc hybride de Grenoble,Surcharge / Court-circuit,Surcharge due à court-circuit partiel.,électrique,1
+2024-12-07,Hugo Bernard,Unité solaire d’Avignon,Analyse/logs,Les journaux système sont illisibles ou altérés.,logiciel,0
+2025-01-05,Sophie Giraud,Station solaire de Perpignan,corrosion / humidité,Des traces d’oxydation couvrent la charpente.,structurelle,0
+2024-09-14,Alex Roux,Centrale solaire de Bordeaux,API/communication,Le protocole TLS n’a pas pu établir une session à temps.,logiciel,1
+2025-04-09,Nina Lefèvre,Centrale solaire de Bordeaux,capteur courant,Le capteur de courant a atteint sa capacité maximale.,capteur,1
+2024-12-30,Sophie Bernard,Site éolien de Reims,capteur pressions,Fluctuations rapides du signal issues du transducteur de pression.,capteur,1
+2024-12-13,Camille Bernard,Station photovoltaïque de Strasbourg,pales,Déformation constatée sur une pale.,structurelle,1
+2024-12-14,Jordan Giraud,Ferme solaire de Nîmes,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-07-13,Nina Garnier,Station solaire de Perpignan,corrosion / humidité,Oxydation accélérée en présence d’humidité constante.,structurelle,1
+2024-11-20,Sophie Bernard,Ferme solaire de Toulouse,Phases et Réseau triphasé,Problème de couplage entre phases.,électrique,1
+2024-08-17,Alex Lefèvre,Ferme solaire de Nîmes,Transactions et rollback,La transaction a échoué et a été annulée automatiquement.,logiciel,0
+2024-11-07,Samir Morel,Site éolien de Reims,plaques métalliques,La plaque métallique de soutien est fissurée.,structurelle,1
+2024-05-17,Camille Blanc,Station photovoltaïque de Strasbourg,Performance,L’interface devient temporairement non réactive.,logiciel,0
+2024-08-18,Sophie Blanc,Centrale solaire de Bordeaux,filtrage et bruit,Bruit de fond excessif dans la mesure.,capteur,0
+2024-05-13,Alex Giraud,Ferme solaire de Toulouse,Session/utilisateur,La session en cours est invalide ou altérée.,logiciel,0
+2024-07-22,Sophie Morel,Station solaire de Perpignan,corrosion / humidité,Des traces sinueuses de rouille se forment sous la peinture.,structurelle,1
+2024-09-24,Sophie Blanc,Ferme solaire de Toulouse,Date/heure,Le format de date ne respecte pas la norme ISO8601 attendue.,logiciel,0
+2025-04-28,Camille Giraud,Parc éolien de Lille,Stabilité / Fréquence,Dérive de tension après charge prolongée.,électrique,0
+2025-04-03,Sophie Lefèvre,Unité solaire d’Avignon,Support d’orientation axial Nordex,Déformation allongée de la chaîne détectée.,mécanique,1
+2024-05-12,Camille Blanc,Centrale solaire de Bordeaux,fondations,Érosion du béton autour des fondations.,structurelle,1
+2024-05-20,Antoine Muller,Unité solaire d’Avignon,Système d’orientation de nacelle,Bruits répétés synchronisés avec la rotation.,mécanique,0
+2024-06-29,Nina Giraud,Plateforme éolienne de Brest,Relais / Commutation,Le relais principal s’est réenclenché sans sollicitation.,électrique,0
+2025-01-23,Julie Lefèvre,Parc hybride de Grenoble,capteur oscillateur,L’oscillateur interne du capteur n’est pas stable.,capteur,0
+2024-07-23,Nina Giraud,Parc hybride de Grenoble,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2024-10-10,Hugo Garnier,Ferme solaire de Nîmes,capteur thermique,Dérive des valeurs de capteur en cas de surchauffe environnementale.,capteur,0
+2025-04-22,Nina Renard,Station photovoltaïque de Strasbourg,Fusibles,Fusible principal grillé.,électrique,1
+2024-06-15,Sophie Lefèvre,Ferme solaire de Toulouse,capteur humidité,Humidité externe altérant la mesure.,capteur,0
+2024-08-08,Sophie Roux,Parc éolien de Lille,Boîtier de jonction / câblage,Surchauffe constatée le long du câble principal.,électrique,1
+2024-10-06,Alex Giraud,Parc éolien de Lille,Ensemble de fixation Rotek,Serrage défaillant des vis de fixation.,mécanique,1
+2025-03-04,Léa Muller,Centrale solaire de Bordeaux,rails / guidage,Le rail n’a pas repris sa forme initiale après contrainte.,structurelle,1
+2025-04-03,Hugo Bernard,Plateforme éolienne de Brest,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-07-17,Alex Renard,Centrale solaire de Bordeaux,comportement sous charge / vent,Le poteau ploie sous le poids.,structurelle,1
+2025-01-14,Samir Morel,Unité solaire d’Avignon,profilés métalliques,Déformation volumique d’un élément cornière détectée.,structurelle,0
+2024-12-19,Jordan Bernard,Centrale solaire de Bordeaux,Parasites / EMI,Interférences électromagnétiques perturbant le signal.,électrique,0
+2024-08-22,Samir Roux,Parc éolien d’Amiens,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2024-10-31,Jordan Lefèvre,Site hybride de Montpellier,Phases et Réseau triphasé,Le couplage triphasé est hors tolérance.,électrique,1
+2025-02-22,Léa Blanc,Station solaire de Perpignan,Date/heure,Échec de parsing de date à cause d’un format invalide.,logiciel,0
+2024-07-03,Nina Petit,Éolienne offshore de Saint-Nazaire,Ligne AC / Alimentation secteur,Sous-tension enregistrée lors de pointes de demande.,électrique,0
+2024-10-24,Hugo Renard,Parc hybride de Grenoble,peinture / revêtement,La couche de peinture se détache en plusieurs endroits.,structurelle,0
+2025-01-29,Nina Morel,Éolienne offshore de Saint-Nazaire,capteur remise sous tension,Aucun signal après extinction et remise sous tension du capteur.,capteur,1
+2024-11-13,Nina Morel,Ferme solaire de Toulouse,capteur electronique,Anomalie de tension due à une fuite dans le transistor interne.,capteur,1
+2024-10-04,Jordan Petit,Centrale solaire de Bordeaux,traverse principale,Enfoncement visible dans un élément porteur horizontal.,structurelle,0
+2024-07-27,Sophie Morel,Parc éolien d’Amiens,Système hydraulique de freinage Parker,Le système absorbe mal les vibrations.,mécanique,0
+2025-05-05,Jordan Bernard,Station photovoltaïque de Strasbourg,mât principal,Le mât présente des coupes asymétriques.,structurelle,1
+2024-12-04,Antoine Roux,Parc hybride de Grenoble,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2024-10-09,Hugo Petit,Ferme solaire de Toulouse,capteur resolution,La précision du capteur ne permet pas de mesurer la grandeur actuelle.,capteur,0
+2024-11-07,Samir Renard,Éolienne offshore de Saint-Nazaire,fondations,Le sol s’est surélevé à la base du mât.,structurelle,0
+2024-08-17,Sophie Petit,Éolienne offshore de Saint-Nazaire,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2024-10-28,Jordan Roux,Ferme solaire de Toulouse,capteur vibration,Défaillance intermittente du capteur de vibration.,capteur,1
+2024-06-12,Antoine Garnier,Parc éolien de Lille,Condensateurs,Surchauffe des condensateurs internes.,électrique,1
+2025-01-18,Antoine Morel,Plateforme éolienne de Brest,Boîte de transmission Bosch Rexroth,Température excessive dans la chambre de roulement.,mécanique,1
+2024-06-26,Julie Renard,Station photovoltaïque de Strasbourg,Système de refroidissement électrique,Système de refroidissement électrique inefficace.,électrique,1
+2024-06-12,Julie Lefèvre,Station solaire de Perpignan,protocole et transmission,Synchronisation NTP échouée.,capteur,0
+2025-04-29,Antoine Roux,Plateforme éolienne de Brest,Palier de moyeu GE Wind Energy,Dégradation structurelle détectée sur le palier.,mécanique,1
+2025-01-10,Sophie Blanc,Plateforme éolienne de Brest,fondations,La matière granulaire autour des fondations est emportée.,structurelle,1
+2025-05-02,Alex Muller,Site éolien de Reims,Performance,Blocage du thread principal sous charge.,logiciel,1
+2024-12-16,Antoine Lefèvre,Parc hybride de Grenoble,Condensateurs,Surchauffe des condensateurs internes.,électrique,1
+2025-04-10,Alex Garnier,Unité solaire d’Avignon,Session/utilisateur,La session en cours est invalide ou altérée.,logiciel,0
+2025-02-08,Hugo Morel,Parc éolien de Lille,Ligne AC / Alimentation secteur,Tension supérieure à la normale mesurée sur la ligne AC.,électrique,1
+2024-11-08,Samir Roux,Parc éolien d’Amiens,Base de données,Incohérence des enregistrements en base SQL.,logiciel,1
+2025-02-05,Samir Roux,Site éolien de Reims,Fusibles,Le fusible de protection a sauté.,électrique,1
+2024-11-18,Antoine Renard,Site hybride de Montpellier,MQTT,Connexion MQTT impossible entraînant une boucle de tentative.,logiciel,1
+2024-09-27,Hugo Petit,Station mixte de Marseille,Parasites / EMI,Bruits parasites transmis par la ligne.,électrique,0
+2024-10-20,Jordan Roux,Station photovoltaïque de Strasbourg,Onduleur principal,Cycle de reboot infini observé sur l’onduleur.,électrique,1
+2024-05-27,Julie Lefèvre,Parc hybride de Grenoble,peinture / revêtement,Petite zone de peinture arrachée visible.,structurelle,0
+2024-07-07,Antoine Muller,Station mixte de Marseille,dilatation thermique,Dilatation thermique non compensée.,structurelle,1
+2025-05-01,Julie Renard,Éolienne offshore de Saint-Nazaire,fondations,Soulèvement du pavage sous le mât.,structurelle,0
+2024-07-13,Jordan Lefèvre,Éolienne offshore de Saint-Nazaire,Système hydraulique de freinage Parker,Défaut de l’amortisseur détecté à l’inspection.,mécanique,0
+2024-08-11,Léa Morel,Centrale solaire de Bordeaux,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2024-07-03,Antoine Morel,Plateforme éolienne de Brest,capteur courant,Le capteur de courant a atteint sa capacité maximale.,capteur,1
+2025-03-11,Julie Petit,Site hybride de Montpellier,Enveloppe externe nacelle,Choc mécanique détecté lors de rafales.,mécanique,1
+2025-01-31,Samir Giraud,Parc éolien d’Amiens,Modbus/communication locale,Le protocole Modbus retourne fréquemment une expiration de délai.,logiciel,0
+2025-02-24,Sophie Petit,Parc éolien de Lille,profilés métalliques,Déformation sinusoïdale le long de la barre acier détectée.,structurelle,0
+2024-08-18,Alex Petit,Parc éolien d’Amiens,Frein de rotor Svendborg,Système de roulement collé suite à corrosion.,mécanique,1
+2024-08-10,Jordan Renard,Site hybride de Montpellier,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2024-12-27,Camille Lefèvre,Parc hybride de Grenoble,comportement sous charge / vent,Le poteau ploie sous le poids.,structurelle,1
+2024-09-28,Sophie Renard,Site éolien de Reims,Frein de rotor Svendborg,Le frein reste partiellement enclenché.,mécanique,1
+2025-02-11,Antoine Muller,Plateforme éolienne de Brest,Ensemble de fixation Rotek,Les vis de fixation ne tiennent pas correctement.,mécanique,1
+2024-11-15,Julie Renard,Éolienne offshore de Saint-Nazaire,capteur thermique,Dérive des valeurs de capteur en cas de surchauffe environnementale.,capteur,0
+2024-12-16,Nina Petit,Ferme solaire de Toulouse,structures portantes,Torsion excessive du cadre support.,structurelle,1
+2024-10-18,Camille Bernard,Parc éolien d’Amiens,capteur température,Le capteur de température transmet des valeurs contradictoires.,capteur,1
+2025-02-23,Jordan Lefèvre,Ferme solaire de Nîmes,Quota et accès,Le nombre d’appels API autorisé a été excédé.,logiciel,0
+2025-03-12,Alex Giraud,Ferme solaire de Toulouse,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2024-07-16,Léa Petit,Ferme solaire de Nîmes,Stabilité / Fréquence,Instabilité fréquentielle sur la ligne électrique.,électrique,0
+2024-07-11,Samir Muller,Parc éolien d’Amiens,capteur température,Le capteur de température transmet des valeurs contradictoires.,capteur,1
+2024-06-30,Jordan Bernard,Plateforme éolienne de Brest,Condensateurs,Les condensateurs internes ont atteint une température critique.,électrique,1
+2025-04-28,Nina Lefèvre,Station solaire de Perpignan,limites mécaniques,Des réseaux de fissures sont visibles sur le béton.,structurelle,1
+2024-06-10,Samir Giraud,Unité solaire d’Avignon,Régulation / Contrôleur,Dysfonctionnement du contrôleur de puissance.,électrique,1
+2025-03-29,Hugo Renard,Ferme solaire de Toulouse,Système d’orientation de nacelle,Désalignement des axes provoquant frottement.,mécanique,1
+2024-10-02,Antoine Renard,Parc hybride de Grenoble,Performance,Le thread principal cesse de répondre en cas de forte sollicitation.,logiciel,1
+2024-11-26,Nina Garnier,Plateforme éolienne de Brest,soudure / joints,Des microfissures apparaissent le long de la soudure.,structurelle,1
+2024-07-11,Camille Blanc,Éolienne offshore de Saint-Nazaire,Endpoints/API,La réponse JSON ne correspond pas au schéma attendu.,logiciel,0
+2025-01-27,Léa Renard,Unité solaire d’Avignon,Synchronisation,Les modules du système ne sont plus correctement synchronisés.,logiciel,1
+2025-02-19,Nina Morel,Plateforme éolienne de Brest,dilatation thermique,Dilatation thermique non compensée.,structurelle,1
+2024-11-18,Hugo Roux,Ferme solaire de Toulouse,Barrière anti-retour,Dégrèvement anormal de la barrière anti-retour.,électrique,1
+2025-04-20,Léa Bernard,Station photovoltaïque de Strasbourg,Support d’orientation axial Nordex,Patin de glissement usé au-delà de la tolérance.,mécanique,0
+2024-10-13,Antoine Muller,Unité solaire d’Avignon,capteur température,Le capteur de température transmet des valeurs contradictoires.,capteur,1
+2024-10-23,Julie Blanc,Station solaire de Perpignan,Arbre principal SKF 800mm,Le bras support se déforme sous la contrainte.,mécanique,0
+2024-05-21,Hugo Renard,Site hybride de Montpellier,capteur shunt,Résistance de shunt défectueuse.,capteur,1
+2024-08-10,Léa Muller,Unité solaire d’Avignon,capteur liquide,Bulles d’air dans le fluide de mesure.,capteur,1
+2025-01-31,Julie Lefèvre,Centrale solaire de Bordeaux,Condensateurs,"Composants internes trop chauds, risque de dégradation.",électrique,1
+2024-12-11,Hugo Lefèvre,Parc éolien d’Amiens,Support d’orientation axial Nordex,Déformation allongée de la chaîne détectée.,mécanique,1
+2025-03-27,Sophie Lefèvre,Unité solaire d’Avignon,Fusibles,Fusible principal grillé.,électrique,1
+2024-12-28,Nina Morel,Unité solaire d’Avignon,Système hydraulique de freinage Parker,Défaut de l’amortisseur détecté à l’inspection.,mécanique,0
+2025-03-25,Antoine Petit,Ferme solaire de Toulouse,Condensateurs,Les condensateurs internes ont atteint une température critique.,électrique,1
+2024-11-01,Samir Lefèvre,Parc éolien d’Amiens,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2025-03-28,Samir Petit,Parc hybride de Grenoble,Surveillance/monitoring,Le module de monitoring s’est arrêté de façon imprévue.,logiciel,0
+2024-09-12,Antoine Blanc,Site hybride de Montpellier,Système de refroidissement électrique,Dissipateur thermique en panne ou inefficace.,électrique,1
+2025-03-01,Hugo Petit,Ferme solaire de Toulouse,Gestion mémoire,Fuite de mémoire observée dans le module X.,logiciel,1
+2024-07-01,Jordan Renard,Site hybride de Montpellier,Performance,Gel du processus principal lorsque la charge est élevée.,logiciel,1
+2024-10-02,Samir Lefèvre,Site éolien de Reims,Modbus/communication locale,Le protocole Modbus retourne fréquemment une expiration de délai.,logiciel,0
+2024-09-23,Sophie Garnier,Site éolien de Reims,microcontroleur interne,Blocage logiciel interne sur la puce du capteur constaté.,capteur,1
+2024-09-22,Julie Garnier,Site hybride de Montpellier,SCADA,Le planificateur semble exécuter une boucle sans fin.,logiciel,1
+2024-10-02,Samir Lefèvre,Parc hybride de Grenoble,capteur diaphragme,Fissuration visible sur la membrane de détection.,capteur,1
+2025-04-07,Alex Petit,Ferme solaire de Toulouse,Contrôle / Commande,Signal de commande électrique absent.,électrique,1
+2025-04-16,Sophie Morel,Plateforme éolienne de Brest,microcontroleur interne,Le microcontrôleur embarqué présente un dysfonctionnement logiciel.,capteur,1
+2024-10-09,Léa Giraud,Station photovoltaïque de Strasbourg,Configuration système,Paramètre manquant dans le fichier YAML.,logiciel,0
+2024-09-10,Nina Muller,Site hybride de Montpellier,limites mécaniques,Une contrainte excessive a provoqué une déformation irréversible.,structurelle,1
+2025-03-24,Antoine Garnier,Station solaire de Perpignan,Analyse/logs,Fichiers de log trop volumineux.,logiciel,0
+2024-11-19,Nina Giraud,Unité solaire d’Avignon,attaches extérieures,Présence de rouille importante sur les fixations externes.,structurelle,1
+2024-12-03,Jordan Bernard,Plateforme éolienne de Brest,microcontroleur interne,Le microcontrôleur embarqué présente un dysfonctionnement logiciel.,capteur,1
+2025-03-25,Julie Garnier,Ferme solaire de Nîmes,Palier de moyeu GE Wind Energy,Fatigue des matériaux sur le palier d’axe.,mécanique,1
+2025-04-01,Jordan Lefèvre,Ferme solaire de Nîmes,Boîte de transmission Bosch Rexroth,Échauffement important détecté sur les roulements.,mécanique,1
+2025-01-14,Camille Bernard,Ferme solaire de Nîmes,pales,Déformation constatée sur une pale.,structurelle,1
+2024-09-02,Julie Morel,Ferme solaire de Toulouse,Ressort de rappel Enerdrive,Rupture partielle du ressort de rappel.,mécanique,1
+2024-09-04,Antoine Lefèvre,Unité solaire d’Avignon,capteur oscillateur,L’oscillateur interne du capteur n’est pas stable.,capteur,0
+2025-02-12,Samir Renard,Station photovoltaïque de Strasbourg,Stabilité / Fréquence,Dérive de tension après charge prolongée.,électrique,0
+2024-12-22,Camille Muller,Parc éolien d’Amiens,protocole et transmission,Erreur de configuration SPI/I2C.,capteur,1
+2024-06-11,Camille Lefèvre,Site éolien de Reims,filtrage et bruit,Interférence acoustique perturbant le capteur.,capteur,0
+2024-08-14,Hugo Roux,Éolienne offshore de Saint-Nazaire,Ensemble de fixation Rotek,Écrou de serrage tournant librement.,mécanique,0
+2025-01-29,Jordan Renard,Parc hybride de Grenoble,Compatibilité logicielle,Incompatibilité entre bibliothèques Python présentes dans l’environnement.,logiciel,0
+2024-11-03,Camille Garnier,Site hybride de Montpellier,plateforme d’ancrage,Déséquilibre topographique détecté sur la zone d’ancrage.,structurelle,0
+2025-02-03,Alex Roux,Site hybride de Montpellier,Enveloppe externe nacelle,Vibration violente pendant les rafales.,mécanique,1
+2024-05-13,Samir Muller,Station solaire de Perpignan,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2025-02-22,Julie Giraud,Site éolien de Reims,Date/heure,Le format de date ne respecte pas la norme ISO8601 attendue.,logiciel,0
+2025-01-27,Camille Bernard,Site hybride de Montpellier,Palier de moyeu GE Wind Energy,Rugosité accrue sur la surface de palier.,mécanique,0
+2024-07-28,Alex Morel,Station mixte de Marseille,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2024-12-12,Jordan Giraud,Plateforme éolienne de Brest,attaches extérieures,Corrosion avancée sur les attaches extérieures.,structurelle,1
+2024-10-06,Sophie Morel,Plateforme éolienne de Brest,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2025-04-08,Alex Muller,Parc hybride de Grenoble,microcontroleur interne,Bogue dans le microcontrôleur intégré.,capteur,1
+2024-09-30,Alex Giraud,Parc hybride de Grenoble,Traverse de rotation SMC,Des microfissures apparaissent le long de la soudure.,mécanique,1
+2025-02-27,Julie Lefèvre,Station photovoltaïque de Strasbourg,dilatation thermique,Dilatation thermique non compensée.,structurelle,1
+2024-06-06,Nina Petit,Site éolien de Reims,Condensateurs,"Composants internes trop chauds, risque de dégradation.",électrique,1
+2024-06-13,Camille Renard,Station mixte de Marseille,attaches extérieures,Les attaches extérieures sont fortement oxydées.,structurelle,1
+2024-09-09,Nina Petit,Éolienne offshore de Saint-Nazaire,Système d’orientation de nacelle,Torsion irrégulière lors du fonctionnement.,mécanique,1
+2024-06-02,Sophie Morel,Parc éolien de Lille,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2024-11-27,Antoine Garnier,Centrale solaire de Bordeaux,Relais / Commutation,Le relais principal s’est réenclenché sans sollicitation.,électrique,0
+2024-11-28,Hugo Muller,Unité solaire d’Avignon,Ligne AC / Alimentation secteur,Synchronisation perdue avec le réseau électrique externe.,électrique,1
+2025-03-11,Alex Roux,Station solaire de Perpignan,capteur monté,Capteur déconnecté suite à choc externe.,capteur,1
+2025-04-02,Samir Giraud,Centrale solaire de Bordeaux,Ligne AC / Alimentation secteur,Une surtension a été détectée sur la ligne alternative.,électrique,1
+2025-03-10,Camille Lefèvre,Ferme solaire de Toulouse,Sécurité/authentification,Certificat SSL expiré non renouvelé.,logiciel,1
+2024-08-28,Julie Roux,Site éolien de Reims,profilés métalliques,Déformation volumique d’un élément cornière détectée.,structurelle,0
+2025-03-26,Camille Petit,Station photovoltaïque de Strasbourg,Stabilité / Fréquence,Fréquence irrégulière mesurée dans le réseau d’alimentation.,électrique,0
+2024-09-28,Nina Giraud,Parc hybride de Grenoble,Boîtier de jonction / câblage,Échauffement du câble d’alimentation.,électrique,1
+2024-10-07,Nina Bernard,Parc éolien de Lille,Régulation / Contrôleur,Défaillance dans la gestion de la puissance active détectée.,électrique,1
+2024-09-20,Sophie Lefèvre,Site hybride de Montpellier,Support d’orientation axial Nordex,Allongement excessif de la chaîne de transmission.,mécanique,1
+2024-07-15,Camille Blanc,Site hybride de Montpellier,plateforme d’ancrage,Écart de niveau sur plateforme d’ancrage.,structurelle,0
+2024-09-24,Jordan Renard,Station mixte de Marseille,Modbus/communication locale,Timeout régulier sur protocole Modbus.,logiciel,0
+2024-09-04,Jordan Roux,Unité solaire d’Avignon,corrosion / humidité,Oxydation en profondeur cachée sous le revêtement.,structurelle,1
+2024-09-02,Hugo Bernard,Unité solaire d’Avignon,Module de sécurité mécanique Nidec,Le système de sécurité se déclenche sans raison.,mécanique,1
+2024-08-10,Léa Morel,Parc éolien de Lille,Boîtier de jonction / câblage,Température anormale relevée sur le câble d’entrée.,électrique,1
+2024-06-03,Léa Muller,Parc hybride de Grenoble,capteur monté,Erreur d’installation mécanique affectant les mesures.,capteur,1
+2024-09-04,Jordan Garnier,Ferme solaire de Toulouse,Réducteur de vitesse Flender,L'axe principal présente un comportement vibratoire anormal.,mécanique,1
+2024-09-22,Alex Muller,Ferme solaire de Nîmes,capteur uv,Le capteur UV ne peut plus mesurer correctement en raison d’une exposition intense.,capteur,0
+2025-04-18,Julie Muller,Site éolien de Reims,Sécurité/authentification,Le certificat de sécurité n’a pas été mis à jour à temps.,logiciel,1
+2025-04-29,Samir Petit,Ferme solaire de Toulouse,Onduleur principal,Onduleur de secours non enclenché lors de la panne secteur.,électrique,1
+2025-03-15,Julie Renard,Unité solaire d’Avignon,Date/heure,Erreur de conversion de date ISO8601.,logiciel,0
+2024-11-08,Alex Bernard,Parc éolien d’Amiens,fixations structurelles,Gond desserré sur la charpente.,structurelle,1
+2025-03-10,Julie Muller,Éolienne offshore de Saint-Nazaire,rails / guidage,Le rail n’a pas repris sa forme initiale après contrainte.,structurelle,1
+2024-07-05,Samir Garnier,Station photovoltaïque de Strasbourg,fondations,Érosion granulaire du remblai.,structurelle,1
+2024-08-30,Samir Lefèvre,Station solaire de Perpignan,Condensateurs,Les condensateurs internes ont atteint une température critique.,électrique,1
+2024-07-31,Julie Garnier,Station mixte de Marseille,capteur liquide,Les lectures sont faussées par des bulles dans le fluide porteur.,capteur,1
+2024-11-10,Samir Garnier,Ferme solaire de Toulouse,protocole et transmission,La communication série entre capteur et carte est erronée.,capteur,1
+2025-04-28,Julie Lefèvre,Site hybride de Montpellier,capteur thermique,Dérive des valeurs de capteur en cas de surchauffe environnementale.,capteur,0
+2025-03-18,Antoine Muller,Parc hybride de Grenoble,Gestion mémoire,Memory leak identifié dans le service X.,logiciel,1
+2024-11-12,Nina Giraud,Station solaire de Perpignan,Frein de rotor Svendborg,Système de roulement collé suite à corrosion.,mécanique,1
+2024-09-06,Jordan Bernard,Site hybride de Montpellier,Éolienne Siemens Gamesa SG 2.1,Déséquilibre dynamique détecté dans la masse tournante.,mécanique,1
+2024-09-19,Antoine Morel,Parc éolien d’Amiens,Contrôle / Commande,Fluctuation imprévue de l’amplitude du courant.,électrique,0
+2024-12-02,Julie Roux,Plateforme éolienne de Brest,Traverse de rotation SMC,Soudure craquelée sur la traverse.,mécanique,1
+2024-08-10,Nina Roux,Parc hybride de Grenoble,comportement sous charge / vent,Mouvement anormal lors des rafales de vent.,structurelle,1
+2024-08-26,Camille Petit,Station solaire de Perpignan,Erreurs d'exécution,Le système échoue à interpréter certaines données JSON.,logiciel,0
+2025-02-11,Samir Garnier,Ferme solaire de Toulouse,structures portantes,Inclinaison anormale détectée après un événement brutal.,structurelle,1
+2024-08-29,Léa Garnier,Centrale solaire de Bordeaux,Éolienne Vestas V90,Résonance audible sous charge nominale.,mécanique,1
+2024-05-10,Julie Muller,Station photovoltaïque de Strasbourg,Surcharge / Court-circuit,Surcharge due à court-circuit partiel.,électrique,1
+2025-02-28,Samir Blanc,Station photovoltaïque de Strasbourg,Compatibilité logicielle,Erreur de chargement liée à un conflit de versions.,logiciel,0
+2024-06-24,Hugo Giraud,Station mixte de Marseille,Barrière anti-retour,Le système de non-retour s’est ouvert inopinément.,électrique,1
+2025-01-29,Nina Morel,Parc éolien d’Amiens,PWM / Sortie signal,Forme d’onde PWM non conforme sur la sortie onduleur.,électrique,0
+2024-09-01,Hugo Bernard,Éolienne offshore de Saint-Nazaire,capteur monté,Débranchement physique du capteur dû à une contrainte mécanique.,capteur,1
+2024-10-04,Alex Giraud,Site éolien de Reims,peinture / revêtement,Petite zone de peinture arrachée visible.,structurelle,0
+2025-03-09,Jordan Renard,Site hybride de Montpellier,capteur remise sous tension,Blocage du capteur après mise hors tension.,capteur,1
+2024-08-16,Sophie Lefèvre,Plateforme éolienne de Brest,capteur vent,Le capteur anémométrique est muet depuis plusieurs minutes.,capteur,1
+2024-05-15,Julie Renard,Ferme solaire de Nîmes,fixations structurelles,Point de pivotement mécanique mal serré détecté.,structurelle,1
+2024-11-09,Nina Garnier,Station photovoltaïque de Strasbourg,comportement sous charge / vent,Fléchissement du poteau sous charge.,structurelle,1
+2025-03-20,Sophie Bernard,Ferme solaire de Toulouse,Date/heure,Le format de date ne respecte pas la norme ISO8601 attendue.,logiciel,0
+2024-06-30,Sophie Morel,Station mixte de Marseille,Guindeau industriel Leroy-Somer,Désolidarisation partielle du guindeau.,mécanique,1
+2024-08-22,Jordan Lefèvre,Unité solaire d’Avignon,capteur uv,Capteur UV saturé en plein soleil.,capteur,0
+2025-03-10,Léa Petit,Ferme solaire de Toulouse,Compatibilité logicielle,Incompatibilité entre bibliothèques Python présentes dans l’environnement.,logiciel,0
+2025-03-28,Samir Renard,Station photovoltaïque de Strasbourg,Ligne AC / Alimentation secteur,Interruption inattendue de l’alimentation électrique.,électrique,1
+2024-05-10,Antoine Garnier,Site hybride de Montpellier,Système d’orientation de nacelle,Claquements rythmiques à chaque révolution.,mécanique,0
+2025-04-05,Alex Morel,Éolienne offshore de Saint-Nazaire,Palier de moyeu GE Wind Energy,Le palier présente des signes de faiblesse mécanique.,mécanique,1
+2024-10-21,Sophie Muller,Plateforme éolienne de Brest,plateforme d’ancrage,Écart de niveau sur plateforme d’ancrage.,structurelle,0
+2024-06-21,Antoine Giraud,Éolienne offshore de Saint-Nazaire,Configuration système,Champ essentiel absent dans le fichier YAML chargé.,logiciel,0
+2025-03-30,Léa Muller,Parc éolien de Lille,Éolienne Siemens Gamesa SG 2.1,Changement de vitesse non fluide avec à-coups.,mécanique,1
+2024-05-30,Hugo Petit,Ferme solaire de Nîmes,Fusibles,Défaillance du fusible principal détectée.,électrique,1
+2024-08-31,Julie Giraud,Parc hybride de Grenoble,capteur shunt,Défaut dans la résistance de shunt intégré au circuit capteur.,capteur,1
+2024-05-22,Hugo Blanc,Station mixte de Marseille,Module de sécurité mécanique Nidec,Mouvement de commande saccadé et non fiable.,mécanique,1
+2024-08-20,Nina Morel,Plateforme éolienne de Brest,capteur mémoire,La mémoire cache du capteur ne fonctionne plus correctement.,capteur,1
+2025-01-09,Jordan Petit,Parc éolien de Lille,Condensateurs,Les condensateurs internes ont atteint une température critique.,électrique,1
+2024-06-16,Jordan Garnier,Ferme solaire de Toulouse,comportement sous charge / vent,Courbure excessive du pilier central détectée.,structurelle,1
+2024-07-01,Camille Giraud,Parc hybride de Grenoble,boîtier capteur,Fuite d’humidité dans le boîtier du capteur.,capteur,1
+2024-11-09,Camille Bernard,Station solaire de Perpignan,profilés métalliques,Ondulation du profilé d'acier.,structurelle,0
+2025-01-24,Antoine Renard,Ferme solaire de Toulouse,protocole et transmission,Synchronisation NTP échouée.,capteur,0
+2024-10-30,Alex Lefèvre,Plateforme éolienne de Brest,MQTT,Connexion MQTT impossible entraînant une boucle de tentative.,logiciel,1
+2024-06-13,Léa Lefèvre,Ferme solaire de Nîmes,Frein de rotor Svendborg,Le roulement ne tourne plus librement à cause de l’oxydation.,mécanique,1
+2024-07-12,Léa Petit,Station photovoltaïque de Strasbourg,plateforme d’ancrage,Déséquilibre topographique détecté sur la zone d’ancrage.,structurelle,0
+2024-09-28,Samir Roux,Site hybride de Montpellier,Ligne AC / Alimentation secteur,Une surtension a été détectée sur la ligne alternative.,électrique,1
+2024-10-01,Camille Petit,Parc éolien d’Amiens,filtrage et bruit,Le capteur est affecté par un bruit électronique important.,capteur,0
+2025-01-25,Nina Giraud,Station mixte de Marseille,dilatation thermique,Comportement expansif non contrôlé lié à la température.,structurelle,1
+2025-03-09,Julie Muller,Site éolien de Reims,Guide de palier H-Tech,Le guide glisse de façon imprévisible.,mécanique,0
+2025-03-22,Samir Giraud,Site éolien de Reims,pales,Une pale présente une courbure anormale.,structurelle,1
+2024-11-24,Alex Morel,Ferme solaire de Nîmes,capteur vent,Capteur de vent ne transmet plus de valeurs.,capteur,1
+2025-01-22,Nina Garnier,Parc hybride de Grenoble,Disjoncteurs / Protection,Surintensité déclenchée par le disjoncteur.,électrique,1
+2025-05-02,Sophie Bernard,Station mixte de Marseille,fixations diverses,Encroûtement de sel sur les fixations.,structurelle,0
+2024-11-26,Julie Roux,Centrale solaire de Bordeaux,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2024-06-06,Léa Bernard,Parc éolien de Lille,Frein de rotor Svendborg,Le frein reste partiellement enclenché.,mécanique,1
+2025-05-03,Julie Lefèvre,Parc hybride de Grenoble,capteur oscillateur,L’oscillateur interne du capteur n’est pas stable.,capteur,0
+2024-07-31,Hugo Garnier,Éolienne offshore de Saint-Nazaire,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2024-08-05,Léa Morel,Parc éolien d’Amiens,fixations structurelles,Gond desserré sur la charpente.,structurelle,1
+2025-01-22,Camille Garnier,Station photovoltaïque de Strasbourg,corrosion / humidité,Corrosion structurelle favorisée par un environnement humide.,structurelle,1
+2024-10-04,Léa Blanc,Station solaire de Perpignan,rails / guidage,Déformation permanente du rail de guidage.,structurelle,1
+2025-02-08,Nina Renard,Parc hybride de Grenoble,Guindeau industriel Leroy-Somer,Le système de levage a perdu son serrage.,mécanique,1
+2025-03-18,Léa Muller,Station photovoltaïque de Strasbourg,fixations structurelles,Jeu mécanique dans les fixations structurelles.,structurelle,1
+2024-10-15,Jordan Giraud,Parc hybride de Grenoble,Pignons d’entraînement Transtecno,Glissement temporaire constaté dans l’engrenage.,mécanique,1
+2024-05-21,Jordan Bernard,Unité solaire d’Avignon,Pignons d’entraînement Transtecno,Décrochage occasionnel des dents d’engrenage.,mécanique,1
+2025-04-13,Nina Blanc,Station solaire de Perpignan,Date/heure,Le format de date ne respecte pas la norme ISO8601 attendue.,logiciel,0
+2025-01-30,Samir Giraud,Unité solaire d’Avignon,Ensemble de fixation Rotek,Les vis de fixation ne tiennent pas correctement.,mécanique,1
+2024-12-07,Hugo Lefèvre,Site éolien de Reims,Module de sécurité mécanique Nidec,Enclenchement aléatoire du mécanisme de sécurité.,mécanique,1
+2025-02-25,Jordan Giraud,Éolienne offshore de Saint-Nazaire,dilatation thermique,Comportement expansif non contrôlé lié à la température.,structurelle,1
+2025-01-05,Antoine Renard,Éolienne offshore de Saint-Nazaire,Condensateurs,Surchauffe des condensateurs internes.,électrique,1
+2024-08-13,Alex Renard,Station photovoltaïque de Strasbourg,Erreurs d'exécution,Erreur de sérialisation des données.,logiciel,0
+2024-07-12,Camille Muller,Ferme solaire de Nîmes,capteur mémoire,Perte de données due à un buffer interne défaillant.,capteur,1
+2024-05-17,Camille Morel,Station photovoltaïque de Strasbourg,Bornier / Connexions,Mauvais contact sur le bornier principal.,électrique,1
+2024-06-14,Samir Bernard,Station photovoltaïque de Strasbourg,Transformateur,Risque d’arc dû à une mauvaise isolation du transfo.,électrique,1
+2025-01-29,Hugo Morel,Centrale solaire de Bordeaux,capteur vent,Absence totale de données issues du capteur de vent.,capteur,1
+2024-12-05,Antoine Morel,Centrale solaire de Bordeaux,Modbus/communication locale,Timeout régulier sur protocole Modbus.,logiciel,0
+2025-02-17,Julie Lefèvre,Parc éolien d’Amiens,boîtier capteur,Fuite d’humidité dans le boîtier du capteur.,capteur,1
+2024-07-17,Julie Bernard,Parc éolien de Lille,plaques métalliques,Plaque de renfort fendue.,structurelle,1
+2025-04-21,Jordan Morel,Ferme solaire de Toulouse,Analyse/logs,Logs corrompus lors de l’analyse des données.,logiciel,0
+2025-02-12,Jordan Roux,Éolienne offshore de Saint-Nazaire,filtrage et bruit,Parasites électromagnétiques à 50 Hz détectés sur le signal.,capteur,0
+2024-07-24,Samir Morel,Centrale solaire de Bordeaux,Système d’orientation de nacelle,Mouvement de torsion non uniforme détecté.,mécanique,1
+2024-12-01,Antoine Giraud,Parc éolien de Lille,SCADA,Le module SCADA a redémarré sans action prévue.,logiciel,1
+2025-04-18,Alex Giraud,Éolienne offshore de Saint-Nazaire,SCADA,Le watchdog a détecté une anomalie de cycle.,logiciel,1
+2024-10-22,Antoine Renard,Station mixte de Marseille,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2025-01-24,Jordan Garnier,Station solaire de Perpignan,Analyse/logs,Les journaux atteignent une taille anormalement grande.,logiciel,0
+2024-05-31,Sophie Lefèvre,Parc hybride de Grenoble,Stabilité / Fréquence,Le courant de sortie varie de façon instable.,électrique,0
+2024-10-12,Sophie Muller,Ferme solaire de Toulouse,Surveillance/monitoring,Collecte de métriques interrompue.,logiciel,0
+2024-05-05,Léa Petit,Centrale solaire de Bordeaux,protocole et transmission,Mauvais paramétrage du protocole numérique utilisé par le capteur.,capteur,1
+2025-02-10,Antoine Lefèvre,Centrale solaire de Bordeaux,fondations,La matière granulaire autour des fondations est emportée.,structurelle,1
+2024-09-28,Hugo Petit,Site hybride de Montpellier,plateforme d’ancrage,La plateforme n’est plus parfaitement de niveau.,structurelle,0
+2024-06-11,Hugo Morel,Centrale solaire de Bordeaux,fixations diverses,Cristallisation saline observée autour des boulons.,structurelle,0
+2025-02-20,Julie Morel,Parc éolien d’Amiens,Performance,Latence élevée dans le traitement des données.,logiciel,0
+2024-10-10,Julie Muller,Parc éolien de Lille,structures portantes,Inclinaison anormale détectée après un événement brutal.,structurelle,1
+2024-09-09,Julie Giraud,Ferme solaire de Nîmes,Tension crête,Tension de crête hors plage autorisée.,électrique,1
+2024-07-16,Jordan Muller,Site hybride de Montpellier,capteur resolution,Écart trop faible pour être détecté avec cette résolution de capteur.,capteur,0
+2024-09-27,Léa Roux,Éolienne offshore de Saint-Nazaire,Session/utilisateur,Connexion interrompue à cause d’une session corrompue.,logiciel,0
+2025-01-22,Antoine Petit,Parc hybride de Grenoble,Fusibles,Défaillance du fusible principal détectée.,électrique,1
+2024-11-12,Sophie Blanc,Parc éolien d’Amiens,capteur vibration,Le capteur de vibration cesse de fonctionner par moments.,capteur,1
+2024-10-17,Jordan Giraud,Station mixte de Marseille,Réducteur de vitesse Flender,La boîte de transmission émet un son inhabituel.,mécanique,0
+2025-01-17,Sophie Giraud,Centrale solaire de Bordeaux,Tension crête,Surtensions brèves mais répétées détectées en crête.,électrique,1
+2024-05-23,Julie Bernard,Station photovoltaïque de Strasbourg,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-09-22,Nina Roux,Station photovoltaïque de Strasbourg,capteur uv,Capteur UV saturé en plein soleil.,capteur,0
+2025-01-07,Antoine Garnier,Ferme solaire de Toulouse,mât principal,Fissure visible à la base du mât.,structurelle,1
+2025-03-02,Jordan Roux,Unité solaire d’Avignon,Bornier / Connexions,Point de contact principal mal serré ou oxydé.,électrique,1
+2024-10-08,Hugo Giraud,Station photovoltaïque de Strasbourg,capteur mémoire,Défaut de la mémoire tampon interne.,capteur,1
+2024-10-01,Samir Muller,Station photovoltaïque de Strasbourg,capteur vibration,Signal irrégulier émis de façon aléatoire par le capteur de vibration.,capteur,1
+2024-10-02,Julie Renard,Station photovoltaïque de Strasbourg,Firmware,Mise à jour incomplète entraînant un état logiciel instable.,logiciel,1
+2024-09-05,Antoine Giraud,Unité solaire d’Avignon,soudure / joints,Des microfissures apparaissent le long de la soudure.,structurelle,1
+2025-02-23,Alex Giraud,Éolienne offshore de Saint-Nazaire,Firmware,Mise à jour incomplète entraînant un état logiciel instable.,logiciel,1
+2024-05-29,Hugo Roux,Centrale solaire de Bordeaux,Modbus/communication locale,Timeout régulier sur protocole Modbus.,logiciel,0
+2024-08-01,Samir Morel,Parc éolien d’Amiens,protocole et transmission,La mise à l’heure automatique du capteur a échoué.,capteur,0
+2025-02-21,Jordan Bernard,Site éolien de Reims,MQTT,Boucle de reconnection infinie au broker MQTT.,logiciel,1
+2025-03-04,Hugo Blanc,Unité solaire d’Avignon,Guindeau industriel Leroy-Somer,Guindeau desserré après fortes vibrations.,mécanique,1
+2024-11-15,Samir Giraud,Plateforme éolienne de Brest,Charge / Impédance,Résistance de charge anormalement élevée.,électrique,0
+2024-12-28,Antoine Roux,Station photovoltaïque de Strasbourg,plaques métalliques,Les segments de structure sont mal alignés entre eux.,structurelle,1
+2025-03-10,Antoine Roux,Parc éolien de Lille,capteur monté,Le capteur est mal fixé ou orienté de manière incorrecte.,capteur,1
+2024-11-22,Alex Bernard,Unité solaire d’Avignon,Onduleur principal,L’onduleur de backup n’a pas pris le relais.,électrique,1
+2024-05-13,Jordan Petit,Parc éolien de Lille,profilés métalliques,Le profil en L présente un renflement anormal.,structurelle,0
+2024-06-11,Julie Renard,Plateforme éolienne de Brest,capteur shunt,Le composant mesurant le courant est hors service.,capteur,1
+2024-12-16,Julie Blanc,Station mixte de Marseille,capteur humidité,Le taux d’humidité ambiant impacte la précision du capteur.,capteur,0
+2025-03-01,Hugo Giraud,Parc hybride de Grenoble,Tension crête,Tension de crête hors plage autorisée.,électrique,1
+2025-01-03,Antoine Bernard,Site hybride de Montpellier,Rendement / Température,Baisse de rendement suite à surchauffe interne.,électrique,1
+2025-01-08,Julie Renard,Station mixte de Marseille,Support d’orientation axial Nordex,La chaîne présente un jeu longitudinal inhabituel.,mécanique,1
+2024-12-04,Antoine Morel,Ferme solaire de Nîmes,Configuration système,Le fichier de configuration est incomplet.,logiciel,0
+2024-09-20,Antoine Garnier,Parc éolien d’Amiens,Session/utilisateur,La session en cours est invalide ou altérée.,logiciel,0
+2024-11-10,Julie Garnier,Parc éolien de Lille,Session/utilisateur,La session en cours est invalide ou altérée.,logiciel,0
+2024-11-08,Léa Blanc,Station mixte de Marseille,capteur liquide,Les lectures sont faussées par des bulles dans le fluide porteur.,capteur,1
+2024-09-09,Jordan Lefèvre,Parc éolien de Lille,capteur oscillateur,L’oscillateur interne du capteur n’est pas stable.,capteur,0
+2025-01-11,Julie Blanc,Parc éolien d’Amiens,Ressort de rappel Enerdrive,Le ressort présente une fissure visible.,mécanique,1
+2024-09-15,Camille Petit,Ferme solaire de Toulouse,capteur humidité,Le taux d’humidité ambiant impacte la précision du capteur.,capteur,0
+2025-04-11,Nina Morel,Ferme solaire de Nîmes,Contrôle / Commande,Commande électrique non transmise à l’actionneur.,électrique,1
+2025-04-02,Jordan Renard,Station photovoltaïque de Strasbourg,Compatibilité logicielle,Incompatibilité entre bibliothèques Python présentes dans l’environnement.,logiciel,0
+2024-07-31,Julie Garnier,Site hybride de Montpellier,capteur electronique,Une fuite dans la grille provoque une déviation du signal.,capteur,1
+2024-07-17,Jordan Renard,Ferme solaire de Nîmes,Onduleur principal,L’onduleur s’est déconnecté sans avertissement.,électrique,1
+2024-06-01,Nina Muller,Parc hybride de Grenoble,Synchronisation,Les modules du système ne sont plus correctement synchronisés.,logiciel,1
+2024-05-26,Nina Renard,Parc éolien d’Amiens,mât principal,Inclinaison anormale du mât principal.,structurelle,1
+2025-02-12,Camille Renard,Parc éolien de Lille,Bornier / Connexions,Point de contact principal mal serré ou oxydé.,électrique,1
+2024-08-19,Julie Morel,Site hybride de Montpellier,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2024-12-21,Samir Lefèvre,Station photovoltaïque de Strasbourg,fixations structurelles,Mobilité excessive détectée dans les points d’ancrage.,structurelle,1
+2025-02-13,Nina Garnier,Parc éolien de Lille,plateforme d’ancrage,La plateforme n’est plus parfaitement de niveau.,structurelle,0
+2025-02-16,Camille Lefèvre,Éolienne offshore de Saint-Nazaire,Arbre principal SKF 800mm,Flexion anormale du bras support.,mécanique,0
+2025-02-16,Léa Blanc,Site hybride de Montpellier,Base de données,Corruption de la base de données SQLite.,logiciel,1
+2024-06-13,Antoine Renard,Parc éolien d’Amiens,protocole et transmission,Synchronisation NTP échouée.,capteur,0
+2024-12-03,Antoine Morel,Parc hybride de Grenoble,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2024-09-10,Camille Bernard,Unité solaire d’Avignon,MQTT,Le service tente sans cesse de se reconnecter au serveur MQTT.,logiciel,1
+2024-06-18,Sophie Morel,Unité solaire d’Avignon,Transformateur,Risque d’arc dû à une mauvaise isolation du transfo.,électrique,1
+2024-07-26,Camille Blanc,Parc éolien de Lille,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2025-03-03,Léa Muller,Station mixte de Marseille,Module principal de rotation,L’ensemble mécanique penche de manière inquiétante.,mécanique,1
+2025-04-12,Jordan Renard,Ferme solaire de Nîmes,Palier de moyeu GE Wind Energy,Rugosité accrue sur la surface de palier.,mécanique,0
+2025-04-04,Léa Roux,Parc éolien d’Amiens,Synchronisation,Perte de synchronisation constatée entre les composants logiciels.,logiciel,1
+2024-10-15,Julie Muller,Station mixte de Marseille,Gestion mémoire,Fuite de mémoire observée dans le module X.,logiciel,1
+2025-02-20,Julie Roux,Parc éolien de Lille,capteur thermique,Dérive thermique observée à 40°C.,capteur,0
+2025-02-28,Samir Blanc,Ferme solaire de Nîmes,Fusibles,Fusible principal grillé.,électrique,1
+2025-02-08,Hugo Petit,Éolienne offshore de Saint-Nazaire,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2025-01-22,Alex Renard,Parc éolien de Lille,Session/utilisateur,Corruption de la session utilisateur.,logiciel,0
+2024-09-11,Julie Petit,Éolienne offshore de Saint-Nazaire,Session/utilisateur,Connexion interrompue à cause d’une session corrompue.,logiciel,0
+2025-01-09,Nina Renard,Éolienne offshore de Saint-Nazaire,Firmware,La procédure de mise à jour a été interrompue prématurément.,logiciel,1
+2024-05-31,Hugo Roux,Site hybride de Montpellier,capteur remise sous tension,Le redémarrage du capteur échoue après coupure d’alimentation.,capteur,1
+2025-01-28,Samir Garnier,Plateforme éolienne de Brest,rails / guidage,Déformation permanente du rail de guidage.,structurelle,1
+2025-04-08,Camille Morel,Unité solaire d’Avignon,corrosion / humidité,Pellicule de rouille sur l’ossature.,structurelle,0
+2024-10-08,Léa Giraud,Éolienne offshore de Saint-Nazaire,Erreurs d'exécution,Crash du système à cause d’une exception non interceptée.,logiciel,1
+2024-10-07,Hugo Lefèvre,Parc éolien d’Amiens,Traverse de rotation SMC,Soudure craquelée sur la traverse.,mécanique,1
+2024-08-09,Hugo Giraud,Station solaire de Perpignan,Rendement / Température,Rendement diminué à cause d’un échauffement anormal.,électrique,1
+2024-10-10,Camille Roux,Ferme solaire de Toulouse,rails / guidage,Le rail n’a pas repris sa forme initiale après contrainte.,structurelle,1
+2024-05-05,Hugo Petit,Unité solaire d’Avignon,capteur température,Le capteur de température transmet des valeurs contradictoires.,capteur,1
+2024-07-10,Léa Lefèvre,Site hybride de Montpellier,profilés métalliques,Déformation volumique d’un élément cornière détectée.,structurelle,0
+2024-10-03,Léa Morel,Site hybride de Montpellier,Rendement / Température,Performances réduites dues à une température excessive.,électrique,1
+2024-10-23,Camille Garnier,Site hybride de Montpellier,Pignons d’entraînement Transtecno,Glissement temporaire constaté dans l’engrenage.,mécanique,1
+2024-07-30,Julie Renard,Unité solaire d’Avignon,Transactions et rollback,La transaction a échoué et a été annulée automatiquement.,logiciel,0
+2024-08-24,Antoine Giraud,Parc éolien de Lille,Synchronisation,Perte de synchronisation constatée entre les composants logiciels.,logiciel,1
+2024-10-15,Julie Roux,Ferme solaire de Toulouse,Système hydraulique de freinage Parker,Amortisseur défectueux ne réduisant pas les chocs.,mécanique,0
+2024-06-09,Nina Lefèvre,Station photovoltaïque de Strasbourg,capteur vent,Le capteur anémométrique est muet depuis plusieurs minutes.,capteur,1
+2024-09-03,Alex Giraud,Station solaire de Perpignan,Boîte de transmission Bosch Rexroth,Le désalignement des pignons génère une nuisance sonore.,mécanique,1
+2024-06-15,Sophie Morel,Parc éolien d’Amiens,capteur mémoire,La mémoire cache du capteur ne fonctionne plus correctement.,capteur,1
+2024-06-29,Jordan Muller,Plateforme éolienne de Brest,Boîtier de jonction / câblage,Échauffement du câble d’alimentation.,électrique,1
+2024-07-31,Samir Petit,Station solaire de Perpignan,Pignons d’entraînement Transtecno,Glissement temporaire constaté dans l’engrenage.,mécanique,1
+2024-06-06,Nina Roux,Parc hybride de Grenoble,protocole et transmission,La communication série entre capteur et carte est erronée.,capteur,1
+2025-04-11,Sophie Morel,Éolienne offshore de Saint-Nazaire,fixations diverses,Encroûtement de sel sur les fixations.,structurelle,0
+2024-09-12,Samir Giraud,Ferme solaire de Nîmes,attaches extérieures,Présence de rouille importante sur les fixations externes.,structurelle,1
+2024-09-23,Julie Garnier,Éolienne offshore de Saint-Nazaire,capteur liquide,Les lectures sont faussées par des bulles dans le fluide porteur.,capteur,1
+2024-06-07,Camille Morel,Site éolien de Reims,Analyse/logs,Logs corrompus lors de l’analyse des données.,logiciel,0
+2024-08-16,Samir Muller,Parc éolien de Lille,Tension crête,Pics de tension dépassant les spécifications relevés.,électrique,1
+2024-07-14,Hugo Blanc,Station mixte de Marseille,Barrière anti-retour,Le système de non-retour s’est ouvert inopinément.,électrique,1
+2024-10-04,Julie Roux,Plateforme éolienne de Brest,plateforme d’ancrage,La plateforme n’est plus parfaitement de niveau.,structurelle,0
+2024-07-25,Jordan Petit,Éolienne offshore de Saint-Nazaire,Quota et accès,"Limite d’utilisation API atteinte, accès refusé.",logiciel,0
+2024-05-23,Antoine Roux,Unité solaire d’Avignon,Boîte de transmission Bosch Rexroth,Surchauffe des roulements signalée.,mécanique,1
+2024-10-28,Sophie Renard,Ferme solaire de Toulouse,Modbus/communication locale,Des timeouts récurrents sont détectés sur la liaison Modbus.,logiciel,0
+2024-07-11,Samir Roux,Station mixte de Marseille,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2024-10-25,Léa Bernard,Parc hybride de Grenoble,Ressort de rappel Enerdrive,Rupture partielle du ressort de rappel.,mécanique,1
+2024-11-24,Sophie Blanc,Plateforme éolienne de Brest,Palier de moyeu GE Wind Energy,Le palier présente des irrégularités de surface.,mécanique,0
+2025-03-01,Jordan Petit,Station mixte de Marseille,Guindeau industriel Leroy-Somer,Désolidarisation partielle du guindeau.,mécanique,1
+2024-05-09,Julie Petit,Station photovoltaïque de Strasbourg,Palier de moyeu GE Wind Energy,Rugosité accrue sur la surface de palier.,mécanique,0
+2024-12-19,Antoine Garnier,Plateforme éolienne de Brest,fondations,Érosion granulaire du remblai.,structurelle,1
+2024-09-18,Julie Lefèvre,Site éolien de Reims,Sécurité/authentification,L’utilisateur ne parvient pas à s’authentifier via OAuth2.,logiciel,1
+2024-06-22,Antoine Giraud,Site éolien de Reims,Disjoncteurs / Protection,Déclenchement de sécurité suite à surintensité.,électrique,1
+2024-08-28,Jordan Lefèvre,Ferme solaire de Nîmes,Configuration système,Mauvaise configuration du fichier .env.,logiciel,0
+2024-12-01,Alex Lefèvre,Éolienne offshore de Saint-Nazaire,Fusibles,Fusible principal grillé.,électrique,1
+2024-11-22,Antoine Giraud,Centrale solaire de Bordeaux,rails / guidage,Le rail n’a pas repris sa forme initiale après contrainte.,structurelle,1
+2024-09-18,Antoine Petit,Station mixte de Marseille,API/communication,Échec de la requête API REST.,logiciel,1
+2024-07-01,Sophie Morel,Plateforme éolienne de Brest,capteur courant,Le capteur de courant a atteint sa capacité maximale.,capteur,1
+2025-04-08,Sophie Morel,Éolienne offshore de Saint-Nazaire,mât principal,Le mât est penché au-delà de la verticale admise.,structurelle,1
+2024-10-08,Camille Morel,Site éolien de Reims,pales,Déformation constatée sur une pale.,structurelle,1
+2025-01-16,Léa Lefèvre,Plateforme éolienne de Brest,traverse principale,Enfoncement visible dans un élément porteur horizontal.,structurelle,0
+2024-11-28,Julie Renard,Ferme solaire de Nîmes,Relais / Commutation,Réactivation intempestive du relais principal.,électrique,0
+2025-03-02,Samir Lefèvre,Parc éolien de Lille,Endpoints/API,La réponse JSON ne correspond pas au schéma attendu.,logiciel,0
+2024-12-27,Hugo Lefèvre,Station solaire de Perpignan,Ensemble de fixation Rotek,Jeu anormal détecté au niveau des fixations.,mécanique,1
+2024-09-03,Jordan Muller,Ferme solaire de Nîmes,capteur pressions,Fluctuations rapides du signal issues du transducteur de pression.,capteur,1
+2024-06-14,Alex Bernard,Ferme solaire de Nîmes,Enveloppe externe nacelle,Vibration violente pendant les rafales.,mécanique,1
+2024-11-22,Sophie Giraud,Parc éolien de Lille,plaques métalliques,La plaque métallique de soutien est fissurée.,structurelle,1
+2025-03-10,Alex Giraud,Plateforme éolienne de Brest,capteur température,Le capteur de température transmet des valeurs contradictoires.,capteur,1
+2024-11-09,Alex Lefèvre,Ferme solaire de Nîmes,Palier de moyeu GE Wind Energy,Fatigue des matériaux sur le palier d’axe.,mécanique,1
+2024-08-10,Julie Giraud,Site hybride de Montpellier,Condensateurs,"Composants internes trop chauds, risque de dégradation.",électrique,1
+2025-04-02,Antoine Roux,Site hybride de Montpellier,Endpoints/API,La réponse JSON ne correspond pas au schéma attendu.,logiciel,0
+2025-05-04,Nina Bernard,Station photovoltaïque de Strasbourg,fixations structurelles,Les éléments de fixation ont trop de liberté de mouvement.,structurelle,1
+2024-09-27,Samir Garnier,Unité solaire d’Avignon,Surcharge / Court-circuit,Intensité excessive liée à un court-circuit partiel localisé.,électrique,1
+2024-10-12,Léa Bernard,Unité solaire d’Avignon,Modbus/communication locale,Timeout régulier sur protocole Modbus.,logiciel,0
+2024-09-02,Julie Bernard,Site éolien de Reims,fixations diverses,Encroûtement de sel sur les fixations.,structurelle,0
+2024-08-16,Samir Muller,Site hybride de Montpellier,rails / guidage,Distorsion visible sur la glissière mécanique.,structurelle,1
+2024-10-21,Julie Petit,Station photovoltaïque de Strasbourg,Session/utilisateur,Corruption de la session utilisateur.,logiciel,0
+2024-07-24,Samir Muller,Éolienne offshore de Saint-Nazaire,profilés métalliques,Déformation volumique d’un élément cornière détectée.,structurelle,0
+2024-12-11,Hugo Muller,Centrale solaire de Bordeaux,Module de sécurité mécanique Nidec,Système de positionnement figé par moments.,mécanique,1
+2024-10-26,Hugo Bernard,Ferme solaire de Nîmes,Traverse de rotation SMC,Fragilité de l’assemblage soudé sur un élément transversal.,mécanique,1
+2024-06-12,Camille Petit,Station solaire de Perpignan,Module principal de rotation,L’ensemble mécanique penche de manière inquiétante.,mécanique,1
+2024-05-11,Alex Blanc,Parc éolien d’Amiens,Gestion mémoire,Memory leak identifié dans le service X.,logiciel,1
+2024-07-04,Julie Muller,Station solaire de Perpignan,capteur electronique,Signal d’erreur interne : code 0x1A relevé à l’analyse.,capteur,1
+2025-04-25,Julie Garnier,Centrale solaire de Bordeaux,capteur irradiance,Aucune valeur lumineuse détectée par le capteur solaire.,capteur,1
+2024-06-03,Alex Roux,Ferme solaire de Toulouse,Bornier / Connexions,Mauvais contact sur le bornier principal.,électrique,1
+2024-09-07,Sophie Bernard,Station photovoltaïque de Strasbourg,pales,Déformation constatée sur une pale.,structurelle,1
+2024-08-19,Antoine Petit,Parc éolien d’Amiens,limites mécaniques,Comportement non linéaire observé sous sollicitation forte.,structurelle,1
+2024-08-28,Jordan Garnier,Unité solaire d’Avignon,Onduleur principal,L’onduleur redémarre en boucle sans succès.,électrique,1
+2024-09-25,Nina Lefèvre,Station mixte de Marseille,Modbus/communication locale,Des timeouts récurrents sont détectés sur la liaison Modbus.,logiciel,0
+2025-03-26,Hugo Giraud,Unité solaire d’Avignon,Endpoints/API,Mappage JSON incorrect dans l’endpoint.,logiciel,0
+2024-07-05,Antoine Bernard,Parc hybride de Grenoble,Éolienne Vestas V90,Résonance audible sous charge nominale.,mécanique,1
+2024-06-15,Antoine Blanc,Site hybride de Montpellier,filtrage et bruit,Hypersensibilité aux interférences EMI.,capteur,0
+2024-06-06,Nina Garnier,Unité solaire d’Avignon,capteur irradiance,Aucune valeur lumineuse détectée par le capteur solaire.,capteur,1
+2024-07-18,Antoine Morel,Plateforme éolienne de Brest,Fusibles,Défaillance du fusible principal détectée.,électrique,1
+2025-05-01,Hugo Giraud,Parc hybride de Grenoble,capteur oscillateur,Oscillation de l’horloge interne.,capteur,0
+2024-09-18,Alex Renard,Site hybride de Montpellier,attaches extérieures,Les attaches extérieures sont fortement oxydées.,structurelle,1
+2025-01-15,Antoine Renard,Plateforme éolienne de Brest,fixations structurelles,Gond desserré sur la charpente.,structurelle,1
+2025-01-06,Hugo Bernard,Station solaire de Perpignan,traverse principale,Une marque profonde est présente sur la traverse.,structurelle,0
+2025-02-05,Samir Muller,Parc éolien de Lille,Transactions et rollback,Retour à l’état précédent après un traitement erroné.,logiciel,0
+2024-12-12,Alex Blanc,Station mixte de Marseille,microcontroleur interne,Le microcontrôleur embarqué présente un dysfonctionnement logiciel.,capteur,1
+2024-12-03,Samir Lefèvre,Centrale solaire de Bordeaux,Bornier / Connexions,Mauvais contact sur le bornier principal.,électrique,1
+2024-08-09,Antoine Roux,Éolienne offshore de Saint-Nazaire,Éolienne Siemens Gamesa SG 2.1,Balourd dans la partie tournante.,mécanique,1
+2024-08-13,Hugo Garnier,Station mixte de Marseille,capteur oscillateur,"Horloge du capteur imprécise, induisant des erreurs temporelles.",capteur,0
+2024-09-21,Alex Giraud,Station solaire de Perpignan,Surcharge / Court-circuit,Un court-circuit partiel provoque une surcharge.,électrique,1
+2024-05-16,Jordan Roux,Parc éolien de Lille,Éolienne Vestas V90,Résonance audible sous charge nominale.,mécanique,1
+2024-09-11,Samir Roux,Station solaire de Perpignan,capteur transitoire,Valeur aberrante lors de variations rapides.,capteur,1
+2024-05-24,Nina Roux,Unité solaire d’Avignon,Frein de rotor Svendborg,Blocage par grippage dû à la rouille.,mécanique,1
+2025-05-03,Léa Morel,Station photovoltaïque de Strasbourg,Boîte de transmission Bosch Rexroth,Bruit métallique dû à un engrenage mal aligné.,mécanique,1
+2025-03-08,Nina Garnier,Centrale solaire de Bordeaux,Compatibilité logicielle,Deux composants utilisent des versions non compatibles.,logiciel,0
+2024-06-19,Nina Garnier,Station mixte de Marseille,Réducteur de vitesse Flender,L'axe principal présente un comportement vibratoire anormal.,mécanique,1
+2024-11-13,Léa Lefèvre,Parc éolien de Lille,Erreurs d'exécution,Erreur de sérialisation des données.,logiciel,0
+2024-08-13,Hugo Roux,Centrale solaire de Bordeaux,Boîte de transmission Bosch Rexroth,Surchauffe constatée dans l’enceinte du roulement.,mécanique,1
