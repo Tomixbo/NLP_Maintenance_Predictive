@@ -192,6 +192,7 @@ NLP_Maintenance_Predictive/
 │   ├── LIST_REPORTS.png
 │   └── MODAL_REPORT.png
 │
+├── NLP_Maintenance_Predictive.md  # Description longue du projet
 ├── requirements.txt               # Dépendances Python
 ├── LICENSE                        # MIT License
 └── README.md                      # Ce fichier
