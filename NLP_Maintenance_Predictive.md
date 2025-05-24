@@ -168,10 +168,10 @@ Afin d’étendre la portée prédictive du projet, les points suivants seront e
 
 ## 📎 Annexes et Ressources du Projet
 
-* 📂 **Fichier Python de création du modèle :**
+* 📂 **Fichier Python(Notebook) de traitement NLP et création du modèle :**
 
   ```
-  model_creation/Maintenance_predictive.py
+  model_creation/Maintenance_predictive.ipynb
   ```
 * 📂 **Dataset synthétique (CSV) :**
 
